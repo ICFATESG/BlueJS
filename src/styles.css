@@ -5,7 +5,8 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+
+  nt-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -6750,3 +6751,20 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+div.flex-align {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100%;
+}
+.headcolo {
+  
+  margin-bottom: -10px;
+  background-color: lightblue;
+  border-top: 50px;
+}
