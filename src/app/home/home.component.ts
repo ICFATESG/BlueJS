@@ -38,7 +38,10 @@ export class HomeComponent implements OnInit {
 
   }
 
-
+  onChange(selectedEvent){
+    console.log(selectedEvent)
+    this.eventoSelecionado(selectedEvent)
+  }
   constructor() { }
 
   ngOnInit() {
