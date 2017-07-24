@@ -14,7 +14,7 @@
               <div *ngIf="eventos.length > 0">
                 <label class="col-md-4 control-label" for="evento">Selecione o evento</label>
                 <div class="col-md-6">
-                  <select id="evento" name="evento" (change)="onChange($event.target.value)" class="form-control">
+                  <select id="evento" name="evento" (change)="onChangeEvent($event.target.value)" class="form-control">
                     <option *ngFor="let evento of eventos">{{evento}}</option>
                   </select>
                 </div>
@@ -25,10 +25,10 @@
             <div *ngIf="eventos.length <= 0 || ofAtual.length <= 0">
               <p>Não Temos Oficinas Disponiveis Para Este Evento.</p>
             </div>
-            <div class="form-group">
+            <div *ngIf="eventos.length > 0 && ofAtual.length > 0" class="form-group">
                 <label class="col-md-4 control-label" for="oficina">Selecione a oficína</label>
                 <div class="col-md-6">
-                <select id="oficina" name="oficina" class="form-control">
+                <select id="oficina" name="oficina" class="form-control" (change)="onChangeWorkshop($event.target.value)">
                   <option *ngFor="let oficina of ofAtual">{{oficina}}</option>
                 </select>
                 </div>
@@ -36,22 +36,43 @@
 
           </div>
           <br/><br/><br/>
+          <div class="row">
+              <div class="col-xs-12">
+                  <h2>Evento : {{eventAt}}  |  Oficina: {{workshopAt}}</h2>
+              </div>
+          </div>
           <div class="col-md-6">
             <div class="form-group">
                 <label class="col-md-4 control-label" for="confirm"></label>
                 <div class="col-md-4">
                   <br/>
-                <button id="confirm" name="confirm" class="btn btn-success">Confirmar</button>
+                <button  (click)="initTheCount()"id="confirm" name="confirm" class="btn btn-success">Confirmar</button>
                 </div>
                 </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="confirm"></label>
+                <div class="col-md-4">
+                  <br/>
+                <button  (click)="cancelTheCount()"id="cancel" name="cancel" class="btn btn-danger">Cancelar</button>
+                </div>
+                </div>
+          </div>
+          <br/>
+          <div class="row">
+              <div *ngIf="hasIniti == false"class="col-xs-12">
+                  <h2>Aguardando configurações...</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div *ngIf="hasIniti == true && eventAt.length > 1 && workshopAt.length > 1"class="col-xs-12">
+                  <h2>Contabilizando...</h2>
+              </div>
           </div>
       </div>
     </div>
-      <div class="row">
-          <div class="col-xs-12">
 
-          </div>
-      </div>
   </div>
 
 </section>

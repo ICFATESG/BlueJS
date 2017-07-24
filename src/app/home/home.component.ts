@@ -5,7 +5,9 @@ import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
-  eventAt:string=''
+  hasIniti : boolean =false
+  @Output() eventAt:string=''
+  @Output() workshopAt:string=''
   @Output() selecionaEvento =  new EventEmitter<String>()
   @Output() eventos:string[]=[
     'ForumCientifico',
@@ -38,9 +40,24 @@ export class HomeComponent implements OnInit {
 
   }
 
-  onChange(selectedEvent){
+  onChangeEvent(selectedEvent){
     console.log(selectedEvent)
     this.eventoSelecionado(selectedEvent)
+    this.eventAt=selectedEvent
+  }
+
+  onChangeWorkshop(selectedWorkshop){
+    console.log(selectedWorkshop)
+    this.workshopAt=selectedWorkshop
+  }
+
+  initTheCount(){
+    console.log("BORAAAAAAAAAA")
+    this.hasIniti=true
+  }
+  cancelTheCount(){
+    console.log("Paroooooooooooo")
+    this.hasIniti=false
   }
   constructor() { }
 
