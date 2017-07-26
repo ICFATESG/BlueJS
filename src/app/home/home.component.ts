@@ -1,5 +1,6 @@
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
-
+import { ServiceComponent } from '../service/service.component'
+import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
 @Component({
   selector: 'bjs-home',
   templateUrl: './home.component.html'
@@ -59,7 +60,10 @@ export class HomeComponent implements OnInit {
     console.log("Paroooooooooooo")
     this.hasIniti=false
   }
-  constructor() { }
+
+  constructor() {
+
+  }
 
   ngOnInit() {
   }
