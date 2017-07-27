@@ -8,23 +8,20 @@ import { HeaderComponent } from './header/header.component';
 import { FirebaseConfig } from './../environments/firebase.config';
 import { AngularFireModule } from 'angularfire2/index';
 import { ServiceComponent } from './service/service.component';
-import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ServiceComponent,
-    AngularFireDatabase,
-    FirebaseObjectObservable,
-    FirebaseListObservable
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],
-  providers: [AppComponent,AngularFireModule],
+  providers: [AngularFireModule,AngularFireDatabase],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

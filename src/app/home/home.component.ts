@@ -1,6 +1,6 @@
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
-import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
+import { AngularFireDatabase } from 'angularfire2/database';
 @Component({
   selector: 'bjs-home',
   templateUrl: './home.component.html'
@@ -55,19 +55,30 @@ export class HomeComponent implements OnInit {
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
+    this.form_submit(this.eventAt,this.workshopAt)
   }
   cancelTheCount(){
     console.log("Paroooooooooooo")
     this.hasIniti=false
   }
 
-  constructor() {
+  constructor(private angularFire: AngularFireDatabase) {
 
   }
 
   ngOnInit() {
   }
 
+  form_submit(eventAt: string,workshopAt: string) {
+  this.angularFire.list("users").push(
+  {
+  event: eventAt,
+  workshop:workshopAt
+  }
+  ).then((t: any) => console.log('dados gravados: ' + t.key)),
+  (e: any) => console.log(e.message);
+
+  }
 
 
 }

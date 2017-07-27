@@ -6,6 +6,7 @@
   <div class="container">
 <div class="jumbotron welcome-jumbotron">
       <div class="row">
+        
           <div class="col-md-6">
             <div class="form-group">
               <div *ngIf="eventos.length <= 0">
@@ -50,6 +51,7 @@
                 </div>
                 </div>
           </div>
+
           <div class="col-md-6">
             <div class="form-group">
                 <label class="col-md-4 control-label" for="confirm"></label>
@@ -69,9 +71,7 @@
               <div *ngIf="hasIniti == true && eventAt.length > 1 && workshopAt.length > 1"class="col-xs-12">
                   <h2>Contabilizando...</h2>
               </div>
-              <div *ngFor="let item of items | async">
-                  <a href="#">{{item}}</a>
-              </div>
+
           </div>
       </div>
     </div>

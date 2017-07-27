@@ -6,10 +6,6 @@ import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } 
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  items: FirebaseListObservable<any[]>;
-  constructor(db: AngularFireDatabase) {
-    this.items = db.list('user');
-    //console.log(this.items)
-    console.log("Só dou Hello Sacou?")
-  }
+  title = 'Blue JS';
+  
 }
