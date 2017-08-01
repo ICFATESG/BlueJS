@@ -1,6 +1,6 @@
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
-import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireDatabase,FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
 @Component({
   selector: 'bjs-home',
   templateUrl: './home.component.html'
@@ -31,8 +31,9 @@ export class HomeComponent implements OnInit {
     'LabAberto',
     'IniciaçaoCientifica'
   ]
-
+  items: FirebaseListObservable<any>;
   ofAtual:string[]=[]
+  temp:Array<object>;
   eventoSelecionado(evento: String){
 
     if(evento === "ForumCientifico") return this.ofAtual=this.ofForum
@@ -55,7 +56,9 @@ export class HomeComponent implements OnInit {
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
-    this.form_submit(this.eventAt,this.workshopAt)
+    //this.form_submit(this.eventAt,this.workshopAt)
+    //this.snap_databaseUser()
+    this.snap_databaseWorkshop()
   }
   cancelTheCount(){
     console.log("Paroooooooooooo")
@@ -70,7 +73,7 @@ export class HomeComponent implements OnInit {
   }
 
   form_submit(eventAt: string,workshopAt: string) {
-  this.angularFire.list("users").push(
+  this.angularFire.list("").push(
   {
   event: eventAt,
   workshop:workshopAt
@@ -80,5 +83,25 @@ export class HomeComponent implements OnInit {
 
   }
 
+  snap_databaseUser(){
+    this.items = this.angularFire.list('/Usuarios', { preserveSnapshot: true });
+this.items.subscribe(snapshots => {
+    snapshots.forEach(snapshot => {
+      console.log(snapshot.key)
+      console.log(snapshot.val().bluetoothMAC)
+
+    });
+  })
+  }
+
+  snap_databaseWorkshop(){
+    this.items = this.angularFire.list('/Oficinas', { preserveSnapshot: true });
+this.items.subscribe(snapshots => {
+    snapshots.forEach(snapshot => {
+      console.log(snapshot.key)
+      console.log(snapshot.val())
+    });
+  })
+  }
 
 }
