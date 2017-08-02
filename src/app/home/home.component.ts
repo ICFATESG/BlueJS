@@ -1,20 +1,26 @@
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
+import { HomeFbModule} from '../home/home-fb/home-fb.module'
 import { AngularFireDatabase,FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
+import {Event} from './home-fb/event.model'
+import {Observable} from 'rxjs/Observable'
+import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/catch';
+import {Injectable} from '@angular/core'
 @Component({
   selector: 'bjs-home',
   templateUrl: './home.component.html'
 })
+@Injectable()
 export class HomeComponent implements OnInit {
   hasIniti : boolean =false
   @Output() eventAt:string=''
   @Output() workshopAt:string=''
   @Output() selecionaEvento =  new EventEmitter<String>()
-  @Output() eventos:string[]=[
-    'ForumCientifico',
-    'RoadSec',
-    'MundoSenai'
-  ]
+  @Output() eventos:Event[]=[];
+
+
+
   ofForum:string[]=[
     'IOTOficina',
     'BigData',
@@ -32,8 +38,15 @@ export class HomeComponent implements OnInit {
     'IniciaçaoCientifica'
   ]
   items: FirebaseListObservable<any>;
-  ofAtual:string[]=[]
   temp:Array<object>;
+  ofAtual:string[]=[]
+  constructor(private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event) {
+  
+
+  }
+
+
+
   eventoSelecionado(evento: String){
 
     if(evento === "ForumCientifico") return this.ofAtual=this.ofForum
@@ -43,65 +56,37 @@ export class HomeComponent implements OnInit {
   }
 
   onChangeEvent(selectedEvent){
-    console.log(selectedEvent)
     this.eventoSelecionado(selectedEvent)
     this.eventAt=selectedEvent
+    this.hfb.getEvent(selectedEvent)
   }
 
   onChangeWorkshop(selectedWorkshop){
-    console.log(selectedWorkshop)
     this.workshopAt=selectedWorkshop
+    this.hfb.getWorkshop(selectedWorkshop)
   }
 
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
-    //this.form_submit(this.eventAt,this.workshopAt)
-    //this.snap_databaseUser()
-    this.snap_databaseWorkshop()
+    //this.hfb.form_submit(this.eventAt,this.workshopAt)
+    //this.hfb.snap_databaseUser()
+    this.hfb.snap_databaseWorkshop()
+
   }
   cancelTheCount(){
     console.log("Paroooooooooooo")
     this.hasIniti=false
   }
 
-  constructor(private angularFire: AngularFireDatabase) {
+
+  ngOnInit(){
 
   }
 
-  ngOnInit() {
-  }
 
-  form_submit(eventAt: string,workshopAt: string) {
-  this.angularFire.list("").push(
-  {
-  event: eventAt,
-  workshop:workshopAt
-  }
-  ).then((t: any) => console.log('dados gravados: ' + t.key)),
-  (e: any) => console.log(e.message);
 
-  }
 
-  snap_databaseUser(){
-    this.items = this.angularFire.list('/Usuarios', { preserveSnapshot: true });
-this.items.subscribe(snapshots => {
-    snapshots.forEach(snapshot => {
-      console.log(snapshot.key)
-      console.log(snapshot.val().bluetoothMAC)
 
-    });
-  })
-  }
-
-  snap_databaseWorkshop(){
-    this.items = this.angularFire.list('/Oficinas', { preserveSnapshot: true });
-this.items.subscribe(snapshots => {
-    snapshots.forEach(snapshot => {
-      console.log(snapshot.key)
-      console.log(snapshot.val())
-    });
-  })
-  }
 
 }

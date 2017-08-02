@@ -6,7 +6,7 @@
   <div class="container">
 <div class="jumbotron welcome-jumbotron">
       <div class="row">
-        
+
           <div class="col-md-6">
             <div class="form-group">
               <div *ngIf="eventos.length <= 0">
@@ -16,7 +16,7 @@
                 <label class="col-md-4 control-label" for="evento">Selecione o evento</label>
                 <div class="col-md-6">
                   <select id="evento" name="evento" (change)="onChangeEvent($event.target.value)" class="form-control">
-                    <option *ngFor="let evento of eventos">{{evento}}</option>
+                    <option *ngFor="let event of eventos">{{event.nomeEvento}}</option>
                   </select>
                 </div>
                 </div>

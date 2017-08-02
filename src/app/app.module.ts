@@ -9,6 +9,8 @@ import { FirebaseConfig } from './../environments/firebase.config';
 import { AngularFireModule } from 'angularfire2/index';
 import { ServiceComponent } from './service/service.component';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { HomeFbModule} from './home/home-fb/home-fb.module'
+import { Event} from './home/home-fb/event.model'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],
-  providers: [AngularFireModule,AngularFireDatabase],
+  providers: [AngularFireModule,AngularFireDatabase,HomeFbModule,Event],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
