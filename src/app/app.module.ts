@@ -11,6 +11,7 @@ import { ServiceComponent } from './service/service.component';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { HomeFbModule} from './home/home-fb/home-fb.module'
 import { Event} from './home/home-fb/event.model'
+import {FormsModule,ReactiveFormsModule} from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,8 @@ import { Event} from './home/home-fb/event.model'
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],

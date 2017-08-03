@@ -1,10 +1,11 @@
+import { Workshop } from './home-fb/workshop.model';
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
 import { HomeFbModule} from '../home/home-fb/home-fb.module'
 import { AngularFireDatabase,FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
 import {Event} from './home-fb/event.model'
 import {Observable} from 'rxjs/Observable'
-import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import {Injectable} from '@angular/core'
 @Component({
@@ -18,25 +19,11 @@ export class HomeComponent implements OnInit {
   @Output() workshopAt:string=''
   @Output() selecionaEvento =  new EventEmitter<String>()
   @Output() eventos:Event[]=[];
+  @Output() oficinas:Workshop[]=[];
+  @Output() selectEvent: string;
+  @Output() selectWorkshop: string
 
 
-
-  ofForum:string[]=[
-    'IOTOficina',
-    'BigData',
-    'CoffeBreak'
-  ]
-  ofRoad:string[]=[
-    'HKAFLAG',
-    'Drrone',
-    'LOCKPICK'
-  ]
-
-  ofSenai:string[]=[
-    'Palestra sobre internet das coisas',
-    'LabAberto',
-    'IniciaçaoCientifica'
-  ]
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[]
@@ -44,26 +31,16 @@ export class HomeComponent implements OnInit {
     this.eventos =this.hfb.snapdbEventos()
 
   }
-
-
-
-  eventoSelecionado(evento: String){
-
-    if(evento === "ForumCientifico") return this.ofAtual=this.ofForum
-    else if(evento === "RoadSec") return this.ofAtual=this.ofRoad
-    else if(evento === "MundoSenai") return this.ofAtual=this.ofSenai
-
-  }
-
-  onChangeEvent(selectedEvent){
-    this.eventoSelecionado(selectedEvent)
-    this.eventAt=selectedEvent
-    this.hfb.getEvent(selectedEvent)
+  onChangeEvent(){
+    this.hfb.GLOBALEVENTKEY=this.selectEvent
+    this.eventAt=this.hfb.getnameOfEvent(this.selectEvent)
+    this.oficinas=this.hfb.snapdbWorkshop(this.hfb.GLOBALEVENTKEY)
+    
   }
 
   onChangeWorkshop(selectedWorkshop){
     this.workshopAt=selectedWorkshop
-    this.hfb.getWorkshop(selectedWorkshop)
+   // this.hfb.getWorkshop(selectedWorkshop)
   }
 
   initTheCount(){
