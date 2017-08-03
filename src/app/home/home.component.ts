@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
   temp:Array<object>;
   ofAtual:string[]=[]
   constructor(private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event) {
-  
+    this.eventos =this.hfb.snapdbEventos()
 
   }
 
@@ -71,7 +71,8 @@ export class HomeComponent implements OnInit {
     this.hasIniti=true
     //this.hfb.form_submit(this.eventAt,this.workshopAt)
     //this.hfb.snap_databaseUser()
-    this.hfb.snap_databaseWorkshop()
+    //this.hfb.snap_databaseWorkshop()
+    
 
   }
   cancelTheCount(){

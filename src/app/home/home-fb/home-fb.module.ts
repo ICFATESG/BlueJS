@@ -4,6 +4,9 @@ import {FormsModule} from '@angular/forms'
 import {HomeComponent} from '../home.component'
 import { AngularFireDatabase,FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
 import {Event} from './event.model'
+import {Observable} from 'rxjs/Observable'
+import 'rxjs/add/operator/map'
+import 'rxjs/add/operator/catch';
 @NgModule({
   imports: [
     CommonModule,FormsModule
@@ -80,12 +83,14 @@ this.items.subscribe(snapshots => {
 
 
 
-snapdbEventos():Event[]{
-  let events:Event[]
+snapdbEventos():Array<Event>{
+  let events: any
+  events = new Array
   this.items = this.angularFire.list('/Evento', { preserveSnapshot: true });
-this.items.subscribe(snapshots => {
+  this.items.subscribe(snapshots => {
   snapshots.forEach(snapshot => {
-    let event:Event
+    let event: any
+    event = new Event
     event.id=snapshot.key
     event.nomeEvento=snapshot.val().nomeEvento
     event.localizacaoEvento=snapshot.val().localizacaoEvento
@@ -94,8 +99,8 @@ this.items.subscribe(snapshots => {
     events.push(event)
   });
 })
-console.log(events)
-return events
+  return events
+
 }
 
 
