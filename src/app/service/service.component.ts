@@ -6,17 +6,11 @@ import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } 
 })
 export class ServiceComponent implements OnInit {
 
-// absolute URL
-/*
-  items: FirebaseListObservable<any[]>;
-  constructor(db: AngularFireDatabase) {
-    this.items = db.list('items');
-  //  console.log(this.items)
-  }
-*/
   ngOnInit() {
 
   }
+  MAC = "38:A4:ED:8D:7F:5B"
+
 
 
 }

@@ -22,33 +22,32 @@ export class HomeComponent implements OnInit {
   @Output() oficinas:Workshop[]=[];
   @Output() selectEvent: string;
   @Output() selectWorkshop: string
+  @Output() hasSelec: boolean = false;
 
 
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[]
-  constructor(private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event) {
+  constructor(private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
     this.eventos =this.hfb.snapdbEventos()
-
   }
   onChangeEvent(){
     this.hfb.GLOBALEVENTKEY=this.selectEvent
-    this.eventAt=this.hfb.getnameOfEvent(this.selectEvent)
-    this.oficinas=this.hfb.snapdbWorkshop(this.hfb.GLOBALEVENTKEY)
-    
+    this.eventAt=this.hfb.getnameOfEvent()
+    this.oficinas = this.hfb.snapdbWorkshop()
+    this.hasSelec = true
   }
 
-  onChangeWorkshop(selectedWorkshop){
-    this.workshopAt=selectedWorkshop
-   // this.hfb.getWorkshop(selectedWorkshop)
+  onChangeWorkshop(){
+    this.hfb.GLOBALWORKSHOPKEY = this.selectWorkshop
+    this.workshopAt=this.hfb.getnameOfWork()
   }
 
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
-    //this.hfb.form_submit(this.eventAt,this.workshopAt)
-    //this.hfb.snap_databaseUser()
-    //this.hfb.snap_databaseWorkshop()
+    console.log(this.hfb.getUserKeyMAC(this.service.MAC));
+     
     
 
   }

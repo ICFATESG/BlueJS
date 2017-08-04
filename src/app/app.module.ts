@@ -26,7 +26,7 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms'
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],
-  providers: [AngularFireModule,AngularFireDatabase,HomeFbModule,Event],
+  providers: [AngularFireModule,AngularFireDatabase,HomeFbModule,Event,ServiceComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

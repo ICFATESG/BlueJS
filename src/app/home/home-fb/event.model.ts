@@ -1,6 +1,6 @@
 
 export class Event{
-  id?:string
+  id:string
   localizacaoEvento:string
   nomeEvento:string
   horaInicioEvento:string

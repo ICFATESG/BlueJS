@@ -52,6 +52,23 @@ export class HomeFbModule {
     }
 
 
+  //Return key o the mac user
+    getUserKeyMAC(MAC:string):string{
+      let key:string=""
+      let oMAC:string=""
+      oMAC=MAC
+      this.items = this.angularFire.list('/Usuarios', { preserveSnapshot: true });
+      this.items.subscribe(snapshots => {
+        snapshots.forEach(snapshot => {   
+          let aMAC:string=""
+          aMAC=snapshot.val().bluetoothMAC
+          if (aMAC === MAC) {
+           key=snapshot.key
+          }
+        });
+      })
+      return key
+    }
 
   //Re-search with more parameters
 
@@ -85,10 +102,10 @@ export class HomeFbModule {
 
     }
   //Return array of workshops for the event selected
-    snapdbWorkshop(eventKey:string): Array<Workshop>{
+    snapdbWorkshop(): Array<Workshop>{
       let works: any
       works = new Array
-      this.items = this.angularFire.list(`/Oficinas/${eventKey}`, { preserveSnapshot: true });
+      this.items = this.angularFire.list(`/Oficinas/${this.GLOBALEVENTKEY}`, { preserveSnapshot: true });
       this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
         let work : any
@@ -100,6 +117,7 @@ export class HomeFbModule {
         work.palestrante=snapshot.val().palestrante
         work.horaInicio=snapshot.val().horaInicio
         work.horaFim=snapshot.val().horaFim
+        
         works.push(work)
       });
     })
@@ -110,25 +128,29 @@ export class HomeFbModule {
 
 //Methods NameOf
     
-    getnameOfEvent(key:string): string{
-      let o:string=""
-      this.items = this.angularFire.list(`/Eventos/${key}`, { preserveSnapshot: true });
+    getnameOfEvent():string{
+      let o : string
+      this.items = this.angularFire.list('/Evento', { preserveSnapshot: true})
       this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
-        o= snapshot.val().nomeEvento
+        if (snapshot.key ==this.GLOBALEVENTKEY) {o = snapshot.val().nomeEvento} 
       });
+
     })
-    return o;
+     return o
+      
     }
-    getnameOfWork(){
-      /*let o:string=""
-      this.items = this.angularFire.list(`/Eventos/${key}`, { preserveSnapshot: true });
+    getnameOfWork(): string {
+      let o: string
+      this.items = this.angularFire.list(`/Oficinas/${this.GLOBALEVENTKEY}`, { preserveSnapshot: true })
       this.items.subscribe(snapshots => {
-      snapshots.forEach(snapshot => {
-        o= snapshot.val().nomeEvento
-      });
-    })
-    return o;*/
+        snapshots.forEach(snapshot => {
+          if (snapshot.key == this.GLOBALWORKSHOPKEY) { o = snapshot.val().nomeOficina }
+        });
+
+      })
+      return o
+
     }
  
   }

@@ -23,14 +23,14 @@
               </div>
           </div>
           <div class="col-md-6">
-            <div *ngIf="eventos.length <= 0 || ofAtual.length <= 0">
+            <div *ngIf="hasSelec == false">
               <p>Não Temos Oficinas Disponiveis Para Este Evento.</p>
             </div>
-            <div *ngIf="eventos.length > 0 && ofAtual.length > 0" class="form-group">
+            <div *ngIf="hasSelec == true" class="form-group">
                 <label class="col-md-4 control-label" for="oficina">Selecione a oficína</label>
                 <div class="col-md-6">
-                <select id="oficina" name="oficina" class="form-control" (change)="onChangeWorkshop($event.target.value)">
-                  <option *ngFor="let oficina of oficinas">{{oficina.nomeOficina}}</option>
+                <select id="oficina" name="oficina" class="form-control" (change)="onChangeWorkshop()" [(ngModel)]="selectWorkshop">
+                  <option *ngFor="let oficina of oficinas" [value]="oficina.id">{{oficina.nomeOficina}}</option>
                 </select>
                 </div>
                 </div>
