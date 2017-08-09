@@ -8,6 +8,7 @@ import {Observable} from 'rxjs/Observable'
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import {Injectable} from '@angular/core'
+import {MacService}from '../service/mac.service'
 @Component({
   selector: 'bjs-home',
   templateUrl: './home.component.html'
@@ -28,7 +29,7 @@ export class HomeComponent implements OnInit {
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[]
-  constructor(private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
+  constructor(private macFind: MacService,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
     this.eventos =this.hfb.snapdbEventos()
   }
   onChangeEvent(){
@@ -46,8 +47,8 @@ export class HomeComponent implements OnInit {
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
-    console.log(this.hfb.getUserKeyMAC(this.service.MAC));
-     
+    //console.log(this.hfb.getUserKeyMAC(this.service.MAC));
+     console.log(this.macFind.macs())
     
 
   }
