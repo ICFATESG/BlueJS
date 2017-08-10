@@ -1,3 +1,3 @@
-export interface Mac{
+export class Mac{
     mac:string
 }

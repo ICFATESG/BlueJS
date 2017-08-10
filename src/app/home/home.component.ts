@@ -9,6 +9,8 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import {Injectable} from '@angular/core'
 import { MacsComponent } from "../mac/macs.component";
+import {Mac} from '../mac/mac.model'
+import { MacService } from "../mac/mac.service";
 
 @Component({
   selector: 'bjs-home',
@@ -26,11 +28,11 @@ export class HomeComponent implements OnInit {
   @Output() selectWorkshop: string
   @Output() hasSelec: boolean = false;
 
-
+  macObs:Observable<Mac[]>
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[]
-  constructor(private macs: MacsComponent,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
+  constructor(private mService:MacService,private macs: MacsComponent,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
     this.eventos =this.hfb.snapdbEventos()
   }
   onChangeEvent(){
@@ -48,7 +50,8 @@ export class HomeComponent implements OnInit {
   initTheCount(){
     console.log("BORAAAAAAAAAA")
     this.hasIniti=true
-    this.macs.printMacs()
+    this.macObs=this.mService.getMacs();
+    this.macs.printMacs(this.macObs)
   }
   cancelTheCount(){
     console.log("Paroooooooooooo")
