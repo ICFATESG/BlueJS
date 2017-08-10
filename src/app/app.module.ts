@@ -12,15 +12,17 @@ import { AngularFireDatabase } from 'angularfire2/database';
 import { HomeFbModule} from './home/home-fb/home-fb.module'
 import { Event} from './home/home-fb/event.model'
 import {FormsModule,ReactiveFormsModule} from '@angular/forms'
-import {MacService} from './service/mac.service'
-import {HttpModule} from '@angular/http'
-import{Mac} from './service/mac.model'
+import {HttpModule} from '@angular/http';
+import { MacComponent } from './mac/mac.component'
+import { MacsComponent } from './mac/macs.component'
+import { MacService } from './mac/mac.service'
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    ServiceComponent
+    ServiceComponent,
+    MacComponent
   ],
   imports: [
     HttpModule,
@@ -30,7 +32,7 @@ import{Mac} from './service/mac.model'
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],
-  providers: [AngularFireModule,AngularFireDatabase,HomeFbModule,Event,ServiceComponent,MacService],
+  providers: [MacService,AngularFireModule, AngularFireDatabase, HomeFbModule, Event, ServiceComponent, MacsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

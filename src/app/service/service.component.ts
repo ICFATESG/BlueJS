@@ -1,16 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFireDatabase, FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
+import { Http, Response, Headers, RequestOptions } from '@angular/http'
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/Rx';
 @Component({
   selector: 'bjs-service',
   templateUrl: './service.component.html'
 })
 export class ServiceComponent implements OnInit {
-
+  private url: string = "http://localhost:3000/macs";
   ngOnInit() {
 
   }
-  MAC = "38:A4:ED:8D:7F:5B"
+  constructor(private http:Http){
 
+  }
+  
 
 
 }
