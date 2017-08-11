@@ -15,14 +15,18 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms'
 import {HttpModule} from '@angular/http';
 import { MacComponent } from './mac/mac.component'
 import { MacsComponent } from './mac/macs.component'
-import { MacService } from './mac/mac.service'
+import { MacService } from './mac/mac.service';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { OficinasComponent } from './oficinas/oficinas.component'
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
     ServiceComponent,
-    MacComponent
+    MacComponent,
+    UsuarioComponent,
+    OficinasComponent
   ],
   imports: [
     HttpModule,
