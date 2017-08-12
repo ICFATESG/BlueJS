@@ -1,3 +1,5 @@
+import { Oficina } from './oficinas/oficinas.model';
+import { Usuario } from './usuario/usuario.model';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule,PreloadAllModules } from '@angular/router';
@@ -36,7 +38,7 @@ import { OficinasComponent } from './oficinas/oficinas.component'
     AngularFireModule.initializeApp(FirebaseConfig),
     RouterModule.forRoot(ROUTES,{preloadingStrategy:PreloadAllModules})
   ],
-  providers: [MacService,AngularFireModule, AngularFireDatabase, HomeFbModule, Event, ServiceComponent, MacsComponent],
+  providers: [Oficina,Usuario,MacService,AngularFireModule, AngularFireDatabase, HomeFbModule, Event, ServiceComponent, MacsComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

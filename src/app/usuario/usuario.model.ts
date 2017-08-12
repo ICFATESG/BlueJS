@@ -1,18 +1,32 @@
+import { HomeComponent } from '../home/home.component';
 import { Oficina } from "../oficinas/oficinas.model";
 import { Mac } from "../mac/mac.model";
 import { Observable } from 'rxjs/Observable'
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
+import { HomeFbModule } from "../home/home-fb/home-fb.module";
 export class Usuario{
+
+	
+	private id : any;
     private bluetoothMAC: string;
     private cpf: string;
     private nome: string;
-    private oficinas: Oficina[];
+    private oficinas?: Oficina[];
     public cacheMAC: Mac[];
     public saidaMAC: Mac[];
     constructor(){
 
     }
+
+//G/S ID
+	public get $id(): any {
+		return this.id;
+	}
+
+	public set $id(value: any) {
+		this.id = value;
+	}
 
 //G/S bluetoothMAC
 	public get $bluetoothMAC(): string {
@@ -48,7 +62,8 @@ export class Usuario{
 	}
 //METHODS
 
-public marcaEntrada(obs:Observable<Mac[]>){
+public inicializa(obs:Observable<Mac[]>){
+	
     if(this.cacheMAC.length == 0){
         obs.subscribe(macs=>{
             macs.forEach((mac)=>{
@@ -59,13 +74,15 @@ public marcaEntrada(obs:Observable<Mac[]>){
     }else{
         obs.subscribe(macs=>{
             macs.forEach((mac)=>{
-                if(!mac+"" in this.cacheMAC){
-                   this.saidaMAC.push(mac) 
-                }
+                if(String(mac) in this.cacheMAC){    
+                }else{
+					this.saidaMAC.push(mac) 
+				}
             })
             
         })
-    }
+	}
+	
 
 
 }

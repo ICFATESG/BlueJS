@@ -1,3 +1,4 @@
+import { Usuario } from '../usuario/usuario.model';
 import { Workshop } from './home-fb/workshop.model';
 import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
@@ -32,7 +33,7 @@ export class HomeComponent implements OnInit {
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[]
-  constructor(private mService:MacService,private macs: MacsComponent,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
+  constructor(private usr:Usuario,private mService:MacService,private macs: MacsComponent,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
     this.eventos =this.hfb.snapdbEventos()
   }
   onChangeEvent(){
@@ -48,17 +49,27 @@ export class HomeComponent implements OnInit {
   }
 
   initTheCount(){
-    console.log("BORAAAAAAAAAA")
+    //console.log("BORAAAAAAAAAA")
     this.hasIniti=true
     this.macObs=this.mService.getMacs();
-    this.macs.printMacs(this.macObs)
+    this.marcaEntrada(this.macObs)
+
   }
   cancelTheCount(){
-    console.log("Paroooooooooooo")
+    //console.log("Paroooooooooooo")
     this.hasIniti=false
   }
 
-
+  marcaEntrada(obs:Observable<Mac[]>){
+    obs.subscribe(macs=>{
+      macs.forEach((mac)=>{
+          let us:Usuario;
+          us=this.hfb.getUserKeyMAC(String(mac.mac));
+         
+      })
+      
+  })
+  }
   ngOnInit(){
 
   }
