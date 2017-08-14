@@ -8,27 +8,27 @@ import { HomeFbModule } from "../home/home-fb/home-fb.module";
 export class Usuario{
 
 	
-	private id : any;
-    private bluetoothMAC: string;
-    private cpf: string;
-    private nome: string;
-    private oficinas?: Oficina[];
-    public cacheMAC: Mac[];
-    public saidaMAC: Mac[];
+	private id : string;
+	private bluetoothMAC: string;
+	private cpf: string;
+	private nome: string;
+	private oficinaVisitadas: Oficina[];
+	private cacheMAC: Mac[];
+    private saidaMAC: Mac[];
+    
     constructor(){
 
     }
 
-//G/S ID
-	public get $id(): any {
+
+	public get $id(): string {
 		return this.id;
 	}
 
-	public set $id(value: any) {
+	public set $id(value: string) {
 		this.id = value;
 	}
 
-//G/S bluetoothMAC
 	public get $bluetoothMAC(): string {
 		return this.bluetoothMAC;
 	}
@@ -36,7 +36,7 @@ export class Usuario{
 	public set $bluetoothMAC(value: string) {
 		this.bluetoothMAC = value;
 	}
-//G/S cpf
+
 	public get $cpf(): string {
 		return this.cpf;
 	}
@@ -44,7 +44,7 @@ export class Usuario{
 	public set $cpf(value: string) {
 		this.cpf = value;
 	}
-//G/S nome
+
 	public get $nome(): string {
 		return this.nome;
 	}
@@ -52,14 +52,32 @@ export class Usuario{
 	public set $nome(value: string) {
 		this.nome = value;
 	}
-//G/S oficinas
-	public get $oficinas(): Oficina[] {
-		return this.oficinas;
+
+	public get $oficinaVisitadas(): Oficina[] {
+		return this.oficinaVisitadas;
 	}
 
-	public set $oficinas(value: Oficina[]) {
-		this.oficinas = value;
+	public set $oficinaVisitadas(value: Oficina[]) {
+		this.oficinaVisitadas = value;
 	}
+
+	public get $cacheMAC(): Mac[] {
+		return this.cacheMAC;
+	}
+
+	public set $cacheMAC(value: Mac[]) {
+		this.cacheMAC = value;
+	}
+
+	public get $saidaMAC(): Mac[] {
+		return this.saidaMAC;
+	}
+
+	public set $saidaMAC(value: Mac[]) {
+		this.saidaMAC = value;
+	}
+    
+
 //METHODS
 
 public inicializa(obs:Observable<Mac[]>){

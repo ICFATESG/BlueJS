@@ -63,9 +63,13 @@ export class HomeComponent implements OnInit {
   marcaEntrada(obs:Observable<Mac[]>){
     obs.subscribe(macs=>{
       macs.forEach((mac)=>{
-          let us:Usuario;
+          let us:any;
+          us = new Usuario;
           us=this.hfb.getUserKeyMAC(String(mac.mac));
-         
+          console.log(us.$id);
+          
+          
+          
       })
       
   })

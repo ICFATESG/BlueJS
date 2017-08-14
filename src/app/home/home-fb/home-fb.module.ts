@@ -55,32 +55,30 @@ export class HomeFbModule {
 
 
   //Return key o the mac user
-  getUserKeyMAC(MAC: string): Usuario {
+  getUserKeyMAC(MAC: string):Usuario{
     let key: string = ""
     let oMAC: string = ""
-    let us: Usuario
+    let rt: any;
+    let us:any;
     oMAC = MAC
     this.items = this.angularFire.list('/Usuarios', { preserveSnapshot: true });
+    us = new Usuario
     this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
+        let arrayTemp:any
         let aMAC: string = ""
         aMAC = snapshot.val().bluetoothMAC
-        if (aMAC === MAC) {
+        if (aMAC === oMAC) {
           us.$id=snapshot.key
-          
-          //us.$id = snapshot.key;
-          //us.$nome = String(snapshot.val().nome);
-         // us.$cpf = String(snapshot.val().cpf);
-          //us.$bluetoothMAC = String(snapshot.val().bluetoothMAC);
-         /* snapshot.val().oficinaVisitadas.array.forEach(element => {
-            us.$oficinas.push(element)
-          });
-*/
+          us.$nome = snapshot.val().nome;
+          us.$cpf = snapshot.val().cpf;
+          us.$bluetoothMAC = snapshot.val().bluetoothMAC;
+          arrayTemp= new Array;
+          arrayTemp = snapshot.val().oficinaVisitadas
+          us.$oficinaVisitadas=arrayTemp
         }
       });
     })
-
-
     return us
   }
 
