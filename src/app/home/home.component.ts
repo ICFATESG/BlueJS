@@ -70,8 +70,6 @@ export class HomeComponent implements OnInit {
         let resultObservable : FirebaseListObservable <any>
         resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
         resultObservable.subscribe(usuarios => {
-          console.log(usuarios.length);
-          
           usuarios.forEach(usr =>{
             this.hfb.metodoteste(String(usr.key))
             
