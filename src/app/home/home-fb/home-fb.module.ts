@@ -85,6 +85,20 @@ export class HomeFbModule {
     return this.items
   }
 
+
+  metodoteste(q:string){
+    q+="/"+this.GLOBALEVENTKEY
+    this.items = this.angularFire.list(`/Usuarios/${q}`, { preserveSnapshot: true });
+    this.items.subscribe(snapshot =>{
+        if(snapshot.length > 0){
+        snapshot.forEach(
+          obj=>{
+            console.log(obj.val());
+            
+          }
+        )
+   } })
+  }
   //Re-search with more parameters
 
   snap_databaseResearch(querry: string) {
