@@ -65,18 +65,20 @@ export class HomeComponent implements OnInit {
       macs.forEach((mac)=>{
         let us: any;
         us = new Usuario;
-        let resultObservable : FirebaseListObservable <any>
-        resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
+        //let resultObservable : FirebaseListObservable <any>
+       //resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
+        let resultObservable =this.hfb.getUserKeyMAC(String(mac.mac));
         resultObservable.subscribe(usuarios => {
-          usuarios.forEach(usr=>{
-            usr.val().forEach
-            
-            
-          }
-
-          )
-          
-        }, (error) => { console.log('ocorreu um erro', error); });
+                console.log("Chamou");
+                console.log(usuarios.val());
+                
+               if (usuarios.lenght > 0) 
+               { 
+                 console.log("entrou");
+                 console.log(usuarios.val());
+                 
+               }
+         }, (error)=> { console.log('ocorreu um erro', error); });
           
           
           
