@@ -8,6 +8,9 @@ import { HomeComponent } from '../home.component'
 import { AngularFireDatabase, FirebaseObjectObservable, FirebaseListObservable } from 'angularfire2/database';
 import { Event } from './event.model'
 import { Observable } from 'rxjs/Observable'
+import { Subscriber } from "rxjs/Subscriber";
+import { Operator } from "rxjs/Operator";
+import { Subscription } from "rxjs/Subscription";
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 @NgModule({
@@ -55,7 +58,7 @@ export class HomeFbModule {
 
 
   //Return key o the mac user
-  getUserKeyMAC(MAC: string):Usuario{
+  getUserKeyMAC(MAC: string): FirebaseListObservable<any>{
     let key: string = ""
     let oMAC: string = ""
     let rt: any;
@@ -79,7 +82,7 @@ export class HomeFbModule {
         }
       });
     })
-    return us
+    return this.items
   }
 
   //Re-search with more parameters

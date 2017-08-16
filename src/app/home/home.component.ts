@@ -63,10 +63,20 @@ export class HomeComponent implements OnInit {
   marcaEntrada(obs:Observable<Mac[]>){
     obs.subscribe(macs=>{
       macs.forEach((mac)=>{
-          let us:any;
-          us = new Usuario;
-          us=this.hfb.getUserKeyMAC(String(mac.mac));
-          console.log(us.$id);
+        let us: any;
+        us = new Usuario;
+        let resultObservable : FirebaseListObservable <any>
+        resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
+        resultObservable.subscribe(usuarios => {
+          usuarios.forEach(usr=>{
+            usr.val().forEach
+            
+            
+          }
+
+          )
+          
+        }, (error) => { console.log('ocorreu um erro', error); });
           
           
           
