@@ -182,4 +182,9 @@ export class HomeFbModule {
 
   }
 
+  testeSET(param:string){
+    const itemObservable = this.angularFire.object(`/Usuarios/Af53whlfmhUJsSkEWV59OO6XNez2/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    itemObservable.update({ name: param });
+  }
+
 }

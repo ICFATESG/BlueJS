@@ -1,0 +1,4795 @@
+{
+  "Evento" : {
+    "-KmRw9G1kvhRepmUCa03" : {
+      "horaFimEvento" : "02:33",
+      "horaInicioEvento" : "01:22",
+      "id" : "-KmRw9G1kvhRepmUCa03",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "Fórum Goiano Tecnológico III; VI Encontro de Iniciação Científica Tecnológica"
+    },
+    "-KmRw9H5dMy8mmLui8DX" : {
+      "horaFimEvento" : "22:33",
+      "horaInicioEvento" : "21:22",
+      "id" : "-KmRw9H5dMy8mmLui8DX",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "2ºForúm tec.."
+    },
+    "-KmRw9HJ6obW_esJKM1O" : {
+      "horaFimEvento" : "32:33",
+      "horaInicioEvento" : "31:22",
+      "id" : "-KmRw9HJ6obW_esJKM1O",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "3ºForúm tec.."
+    },
+    "-KmRw9HZsrs3R1pBZ7Tv" : {
+      "horaFimEvento" : "42:33",
+      "horaInicioEvento" : "41:22",
+      "id" : "-KmRw9HZsrs3R1pBZ7Tv",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "4ºForúm tec.."
+    },
+    "-KmRw9Hlk8gxAfXWbB4k" : {
+      "horaFimEvento" : "52:33",
+      "horaInicioEvento" : "51:22",
+      "id" : "-KmRw9Hlk8gxAfXWbB4k",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "5ºForúm tec.."
+    },
+    "-KmRw9Hw5Np66TKuuYQR" : {
+      "horaFimEvento" : "62:33",
+      "horaInicioEvento" : "61:22",
+      "id" : "-KmRw9Hw5Np66TKuuYQR",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "6ºForúm tec.."
+    },
+    "-KmRw9I6WjVJbfyxEPiU" : {
+      "horaFimEvento" : "72:33",
+      "horaInicioEvento" : "71:22",
+      "id" : "-KmRw9I6WjVJbfyxEPiU",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "7ºForúm tec.."
+    },
+    "-KmRw9IHalBNfgDQpMQr" : {
+      "horaFimEvento" : "82:33",
+      "horaInicioEvento" : "81:22",
+      "id" : "-KmRw9IHalBNfgDQpMQr",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "8ºForúm tec.."
+    },
+    "-KmRw9ISTXDS0mMG8Nbn" : {
+      "horaFimEvento" : "92:33",
+      "horaInicioEvento" : "91:22",
+      "id" : "-KmRw9ISTXDS0mMG8Nbn",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "9ºForúm tec.."
+    },
+    "-KmTJ5rsmkqzD5aBs71S" : {
+      "horaFimEvento" : "02:33",
+      "horaInicioEvento" : "01:22",
+      "id" : "-KmTJ5rsmkqzD5aBs71S",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "0ºForúm tec.."
+    },
+    "-KmTJ5squ1OsaGjHsKzJ" : {
+      "horaFimEvento" : "12:33",
+      "horaInicioEvento" : "11:22",
+      "id" : "-KmTJ5squ1OsaGjHsKzJ",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "1ºForúm tec.."
+    },
+    "-KmTJ5t3HupxNCFonY-b" : {
+      "horaFimEvento" : "22:33",
+      "horaInicioEvento" : "21:22",
+      "id" : "-KmTJ5t3HupxNCFonY-b",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "2ºForúm tec.."
+    },
+    "-KmTJ5tHeTraoPsI5qDy" : {
+      "horaFimEvento" : "32:33",
+      "horaInicioEvento" : "31:22",
+      "id" : "-KmTJ5tHeTraoPsI5qDy",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "3ºForúm tec.."
+    },
+    "-KmTJ5tWPo98N1MJShLE" : {
+      "horaFimEvento" : "42:33",
+      "horaInicioEvento" : "41:22",
+      "id" : "-KmTJ5tWPo98N1MJShLE",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "4ºForúm tec.."
+    },
+    "-KmTJ5tjl_z27sVBmsBr" : {
+      "horaFimEvento" : "52:33",
+      "horaInicioEvento" : "51:22",
+      "id" : "-KmTJ5tjl_z27sVBmsBr",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "5ºForúm tec.."
+    },
+    "-KmTJ5tvuAnNV00B8MZe" : {
+      "horaFimEvento" : "62:33",
+      "horaInicioEvento" : "61:22",
+      "id" : "-KmTJ5tvuAnNV00B8MZe",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "6ºForúm tec.."
+    },
+    "-KmTJ5u8I4MuqVBpey1Y" : {
+      "horaFimEvento" : "72:33",
+      "horaInicioEvento" : "71:22",
+      "id" : "-KmTJ5u8I4MuqVBpey1Y",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "7ºForúm tec.."
+    },
+    "-KmTJ5uqAsdSMEgE-z77" : {
+      "horaFimEvento" : "82:33",
+      "horaInicioEvento" : "81:22",
+      "id" : "-KmTJ5uqAsdSMEgE-z77",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "8ºForúm tec.."
+    },
+    "-KmTJ5v-oGaQXhiZjAen" : {
+      "horaFimEvento" : "92:33",
+      "horaInicioEvento" : "91:22",
+      "id" : "-KmTJ5v-oGaQXhiZjAen",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "9ºForúm tec.."
+    },
+    "-KmTJBhzA5L8yQpaSUpQ" : {
+      "horaFimEvento" : "02:33",
+      "horaInicioEvento" : "01:22",
+      "id" : "-KmTJBhzA5L8yQpaSUpQ",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "0ºForúm tec.."
+    },
+    "-KmTJBidU7YBuIpkbYhb" : {
+      "horaFimEvento" : "12:33",
+      "horaInicioEvento" : "11:22",
+      "id" : "-KmTJBidU7YBuIpkbYhb",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "1ºForúm tec.."
+    },
+    "-KmTJBiozRMzOyiJ8Deq" : {
+      "horaFimEvento" : "22:33",
+      "horaInicioEvento" : "21:22",
+      "id" : "-KmTJBiozRMzOyiJ8Deq",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "2ºForúm tec.."
+    },
+    "-KmTJBizF8DemmsM3nCh" : {
+      "horaFimEvento" : "32:33",
+      "horaInicioEvento" : "31:22",
+      "id" : "-KmTJBizF8DemmsM3nCh",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "3ºForúm tec.."
+    },
+    "-KmTJBj92UOtdWVGJ1Mv" : {
+      "horaFimEvento" : "42:33",
+      "horaInicioEvento" : "41:22",
+      "id" : "-KmTJBj92UOtdWVGJ1Mv",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "4ºForúm tec.."
+    },
+    "-KmTJBjJUMZlpo6TeTh6" : {
+      "horaFimEvento" : "52:33",
+      "horaInicioEvento" : "51:22",
+      "id" : "-KmTJBjJUMZlpo6TeTh6",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "5ºForúm tec.."
+    },
+    "-KmTJBjSOOkXFPTo6LND" : {
+      "horaFimEvento" : "62:33",
+      "horaInicioEvento" : "61:22",
+      "id" : "-KmTJBjSOOkXFPTo6LND",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "6ºForúm tec.."
+    },
+    "-KmTJBjbeZcqu8rPTGNW" : {
+      "horaFimEvento" : "72:33",
+      "horaInicioEvento" : "71:22",
+      "id" : "-KmTJBjbeZcqu8rPTGNW",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "7ºForúm tec.."
+    },
+    "-KmTJBjuPGiAbdzYDxLQ" : {
+      "horaFimEvento" : "82:33",
+      "horaInicioEvento" : "81:22",
+      "id" : "-KmTJBjuPGiAbdzYDxLQ",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "8ºForúm tec.."
+    },
+    "-KmTJBk5-2lt2jI8kcDB" : {
+      "horaFimEvento" : "92:33",
+      "horaInicioEvento" : "91:22",
+      "id" : "-KmTJBk5-2lt2jI8kcDB",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "9ºForúm tec.."
+    },
+    "-Kmr02nPw-IDNxHezDW8" : {
+      "horaFimEvento" : "02:33",
+      "horaInicioEvento" : "01:22",
+      "id" : "-Kmr02nPw-IDNxHezDW8",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "0ºForúm tec.."
+    },
+    "-Kmr02oIqNew8Pv5nlWr" : {
+      "horaFimEvento" : "12:33",
+      "horaInicioEvento" : "11:22",
+      "id" : "-Kmr02oIqNew8Pv5nlWr",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "1ºForúm tec.."
+    },
+    "-Kmr02odYVl_g6OKsbs3" : {
+      "horaFimEvento" : "22:33",
+      "horaInicioEvento" : "21:22",
+      "id" : "-Kmr02odYVl_g6OKsbs3",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "2ºForúm tec.."
+    },
+    "-Kmr02orF2yKc9TwJuQZ" : {
+      "horaFimEvento" : "32:33",
+      "horaInicioEvento" : "31:22",
+      "id" : "-Kmr02orF2yKc9TwJuQZ",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "3ºForúm tec.."
+    },
+    "-Kmr02p3T4h_5bIaExJ1" : {
+      "horaFimEvento" : "42:33",
+      "horaInicioEvento" : "41:22",
+      "id" : "-Kmr02p3T4h_5bIaExJ1",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "4ºForúm tec.."
+    },
+    "-Kmr02pIcK_ScMqd43yu" : {
+      "horaFimEvento" : "52:33",
+      "horaInicioEvento" : "51:22",
+      "id" : "-Kmr02pIcK_ScMqd43yu",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "5ºForúm tec.."
+    },
+    "-Kmr02pW8xxFPEKezXK2" : {
+      "horaFimEvento" : "62:33",
+      "horaInicioEvento" : "61:22",
+      "id" : "-Kmr02pW8xxFPEKezXK2",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "6ºForúm tec.."
+    },
+    "-Kmr02pjYm56cUHnNKh-" : {
+      "horaFimEvento" : "72:33",
+      "horaInicioEvento" : "71:22",
+      "id" : "-Kmr02pjYm56cUHnNKh-",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "7ºForúm tec.."
+    },
+    "-Kmr02pwWIDylR4_9ben" : {
+      "horaFimEvento" : "82:33",
+      "horaInicioEvento" : "81:22",
+      "id" : "-Kmr02pwWIDylR4_9ben",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "8ºForúm tec.."
+    },
+    "-Kmr02q6b4rFCXuPJtQt" : {
+      "horaFimEvento" : "92:33",
+      "horaInicioEvento" : "91:22",
+      "id" : "-Kmr02q6b4rFCXuPJtQt",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "9ºForúm tec.."
+    },
+    "-Kn-39TUwQustc4yHh17" : {
+      "horaFimEvento" : "02:33",
+      "horaInicioEvento" : "01:22",
+      "id" : "-Kn-39TUwQustc4yHh17",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "0ºForúm tec.."
+    },
+    "-Kn-39UOaW56LiOX9L82" : {
+      "horaFimEvento" : "12:33",
+      "horaInicioEvento" : "11:22",
+      "id" : "-Kn-39UOaW56LiOX9L82",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "1ºForúm tec.."
+    },
+    "-Kn-39UbadP9f3uOAPzA" : {
+      "horaFimEvento" : "22:33",
+      "horaInicioEvento" : "21:22",
+      "id" : "-Kn-39UbadP9f3uOAPzA",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "2ºForúm tec.."
+    },
+    "-Kn-39UpOehiveBJJuDF" : {
+      "horaFimEvento" : "32:33",
+      "horaInicioEvento" : "31:22",
+      "id" : "-Kn-39UpOehiveBJJuDF",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "3ºForúm tec.."
+    },
+    "-Kn-39V3nbr7sOQcK3qJ" : {
+      "horaFimEvento" : "42:33",
+      "horaInicioEvento" : "41:22",
+      "id" : "-Kn-39V3nbr7sOQcK3qJ",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "4ºForúm tec.."
+    },
+    "-Kn-39VHDEPPFMQzyltY" : {
+      "horaFimEvento" : "52:33",
+      "horaInicioEvento" : "51:22",
+      "id" : "-Kn-39VHDEPPFMQzyltY",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "5ºForúm tec.."
+    },
+    "-Kn-39VV5LsTjHSoRsOY" : {
+      "horaFimEvento" : "62:33",
+      "horaInicioEvento" : "61:22",
+      "id" : "-Kn-39VV5LsTjHSoRsOY",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "6ºForúm tec.."
+    },
+    "-Kn-39VjYguo_eGzAxuc" : {
+      "horaFimEvento" : "72:33",
+      "horaInicioEvento" : "71:22",
+      "id" : "-Kn-39VjYguo_eGzAxuc",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "7ºForúm tec.."
+    },
+    "-Kn-39Vx9EY46Sam6Dwy" : {
+      "horaFimEvento" : "82:33",
+      "horaInicioEvento" : "81:22",
+      "id" : "-Kn-39Vx9EY46Sam6Dwy",
+      "localizacaoEvento" : "FATESG",
+      "nomeEvento" : "8ºForúm tec.."
+    }
+  },
+  "Oficinas" : {
+    "-KmRw9G1kvhRepmUCa03" : {
+      "-KmRw9Gc2n8x3VYg6Laz" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9Gc2n8x3VYg6Laz",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GhjjkwsLzkq1uT" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9GhjjkwsLzkq1uT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Gi04d2BjiO4raE" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9Gi04d2BjiO4raE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GkgdVWQ0Uf9mQi" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9GkgdVWQ0Uf9mQi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GlFG2Ji1FYi_sO" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9GlFG2Ji1FYi_sO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Gm9aSR-Dzv-hFA" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9Gm9aSR-Dzv-hFA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GoPh2vJa5VUdRQ" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9GoPh2vJa5VUdRQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Gpse560M6q736O" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9Gpse560M6q736O",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GqQueWtRgu2zGC" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9GqQueWtRgu2zGC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GsEAAn0Qn7Umjf" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9GsEAAn0Qn7Umjf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9GtDy2bULlFzRwv" : {
+      "-KmRw9GucLTDkiSaEVzL" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9GucLTDkiSaEVzL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GviUd9g8SgD7St" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9GviUd9g8SgD7St",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Gw33CkvWrrcuEj" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9Gw33CkvWrrcuEj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GyKPYDBkj5ke9q" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9GyKPYDBkj5ke9q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9GzCDUYchdb8dwN" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9GzCDUYchdb8dwN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H-pNL1cGrVuuVN" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9H-pNL1cGrVuuVN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H0swFYxHFoskLA" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9H0swFYxHFoskLA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H11SDGrSJFIqzg" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9H11SDGrSJFIqzg",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H3zoQyCFxIAjyA" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9H3zoQyCFxIAjyA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H4IwtMQXtg-vOW" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9H4IwtMQXtg-vOW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9H5dMy8mmLui8DX" : {
+      "-KmRw9H6luwaJo_Clpnq" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9H6luwaJo_Clpnq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H86qyk5Dbr3zOD" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9H86qyk5Dbr3zOD",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9H9BYt8O9QfV2yM" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9H9BYt8O9QfV2yM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HAyE2WJHMXi4ir" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9HAyE2WJHMXi4ir",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HBa0l1iQr2ocKb" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9HBa0l1iQr2ocKb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HDiPpfDO-ySVCn" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9HDiPpfDO-ySVCn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HEPpxbL4NQRBcU" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9HEPpxbL4NQRBcU",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HFRaTJ-LevFRD1" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9HFRaTJ-LevFRD1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HHTxyNgWkuQUOb" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9HHTxyNgWkuQUOb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HIZdtjestdX7bi" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9HIZdtjestdX7bi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9HJ6obW_esJKM1O" : {
+      "-KmRw9HKMFp_ibyuOitl" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9HKMFp_ibyuOitl",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HO3CW9XpQf8oqO" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9HO3CW9XpQf8oqO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HPj-gla7RCmSz5" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9HPj-gla7RCmSz5",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HQcwOqYsUpZEZ0" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9HQcwOqYsUpZEZ0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HSngi6p5P_yBKN" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9HSngi6p5P_yBKN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HTmWDyunlS49Ui" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9HTmWDyunlS49Ui",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HUeI_0_lPeeWx9" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9HUeI_0_lPeeWx9",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HWHS6vsn5hcHMh" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9HWHS6vsn5hcHMh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HXCIca2jjUe9pd" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9HXCIca2jjUe9pd",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HY9ITlS0eu3H0i" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9HY9ITlS0eu3H0i",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9HZsrs3R1pBZ7Tv" : {
+      "-KmRw9H_mHYI9XAJAnCM" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9H_mHYI9XAJAnCM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Ha4eo--xyUvKee" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9Ha4eo--xyUvKee",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HboX48zb_wo3Qo" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9HboX48zb_wo3Qo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hc-Z36GhmLPlpL" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9Hc-Z36GhmLPlpL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hd8cEde5DrKWTT" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9Hd8cEde5DrKWTT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HeXg6LcBnMmN9I" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9HeXg6LcBnMmN9I",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HgpgpKKbLcgqxT" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9HgpgpKKbLcgqxT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HhpoRZUV7ntX0-" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9HhpoRZUV7ntX0-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HiGpugc3oGedxB" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9HiGpugc3oGedxB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HjZbe22Z3k7Hci" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9HjZbe22Z3k7Hci",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9Hlk8gxAfXWbB4k" : {
+      "-KmRw9HmoU0spVUZ1V7h" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9HmoU0spVUZ1V7h",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hng9nqAf_nmaXr" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9Hng9nqAf_nmaXr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HoSD0fPVG3i869" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9HoSD0fPVG3i869",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hp3DiE9mxHFafO" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9Hp3DiE9mxHFafO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hq6HeZiFsOVdRO" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9Hq6HeZiFsOVdRO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hr6h25eptJQ_U_" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9Hr6h25eptJQ_U_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hseu3TZd8RBB_m" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9Hseu3TZd8RBB_m",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HtifJXAaGiXEa1" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9HtifJXAaGiXEa1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HuxSe2VBNaFuUR" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9HuxSe2VBNaFuUR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HveSaH4ID3ZvKX" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9HveSaH4ID3ZvKX",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9Hw5Np66TKuuYQR" : {
+      "-KmRw9HxpH3Foj_LqwD_" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9HxpH3Foj_LqwD_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9Hy5S3sSq8QyMCx" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9Hy5S3sSq8QyMCx",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9HzDFZs7vFovlMQ" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9HzDFZs7vFovlMQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I-_zugra5H7tn_" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9I-_zugra5H7tn_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I0t0_VB0dGq4fr" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9I0t0_VB0dGq4fr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I1_5lJRzWtcO3j" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9I1_5lJRzWtcO3j",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I2pC2sccXVoXJ9" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9I2pC2sccXVoXJ9",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I306HbWSNW5uXa" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9I306HbWSNW5uXa",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I40o0BYgswcrxL" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9I40o0BYgswcrxL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I59N1NgO2d5JhN" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9I59N1NgO2d5JhN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9I6WjVJbfyxEPiU" : {
+      "-KmRw9I6WjVJbfyxEPiV" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9I6WjVJbfyxEPiV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I7NEi8jvfQzIfS" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9I7NEi8jvfQzIfS",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I92r3FbxW0JHrA" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9I92r3FbxW0JHrA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I92r3FbxW0JHrB" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9I92r3FbxW0JHrB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IAqnsmHGa5_zK4" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9IAqnsmHGa5_zK4",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IBfLPhLIRBlJpR" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9IBfLPhLIRBlJpR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IDgLulN9e4emYO" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9IDgLulN9e4emYO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IEb4eJTDSR-tk-" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9IEb4eJTDSR-tk-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IFkCaYuAuHT7GQ" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9IFkCaYuAuHT7GQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IG4srGuhd8Rjai" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9IG4srGuhd8Rjai",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9IHalBNfgDQpMQr" : {
+      "-KmRw9IIMDqsNIdT5vMT" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9IIMDqsNIdT5vMT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IJ29LyFBTm_m8V" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9IJ29LyFBTm_m8V",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IK3dLoKDaQtyUB" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9IK3dLoKDaQtyUB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9ILA3MDoLr_1WcD" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9ILA3MDoLr_1WcD",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IMySH0r4BFRNH-" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9IMySH0r4BFRNH-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9INePcQ6bAn8aSW" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9INePcQ6bAn8aSW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IOGuZZ8t_uLXVQ" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9IOGuZZ8t_uLXVQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IP138z1r3DVX-m" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9IP138z1r3DVX-m",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IQmsSzxXJF9Upe" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9IQmsSzxXJF9Upe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IR19n6vNRTzEzA" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9IR19n6vNRTzEzA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmRw9ISTXDS0mMG8Nbn" : {
+      "-KmRw9ISTXDS0mMG8Nbo" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmRw9ISTXDS0mMG8Nbo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9ITtGzVE1Mmjp83" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmRw9ITtGzVE1Mmjp83",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IU7ojGZG1TyIGu" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmRw9IU7ojGZG1TyIGu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IVB3K_Q4kXaAuY" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmRw9IVB3K_Q4kXaAuY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IWtdSSu0CE5aUW" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmRw9IWtdSSu0CE5aUW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IXFVZtjoKSdvQc" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmRw9IXFVZtjoKSdvQc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IYV9b57V8L8Iod" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmRw9IYV9b57V8L8Iod",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IZvAH1XDYOALZk" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmRw9IZvAH1XDYOALZk",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9I_CnkBcAelis2m" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmRw9I_CnkBcAelis2m",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmRw9IajD26cjPHIqBe" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmRw9IajD26cjPHIqBe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5rsmkqzD5aBs71S" : {
+      "-KmTJ5sZlp1OW7Oi4p33" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5sZlp1OW7Oi4p33",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5se9uuYUSNCPWwW" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5se9uuYUSNCPWwW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sfchHZL0ALtOsf" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5sfchHZL0ALtOsf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sgj3e3z4s3V20v" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5sgj3e3z4s3V20v",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5siagdg6wcONiOa" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5siagdg6wcONiOa",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sjGJVHQlKKMQum" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5sjGJVHQlKKMQum",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5skguVuXSE6lONt" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5skguVuXSE6lONt",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5slGl2Gud7rzOnP" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5slGl2Gud7rzOnP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sn-yxXNVsb49Sh" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5sn-yxXNVsb49Sh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sormdRVFApJhDa" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5sormdRVFApJhDa",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5squ1OsaGjHsKzJ" : {
+      "-KmTJ5srBylnBd-F2mkv" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5srBylnBd-F2mkv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5ssEJOpMNL4WtyC" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5ssEJOpMNL4WtyC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5stPx_rZ9MEHeJo" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5stPx_rZ9MEHeJo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5svDP8gBNm_qYRy" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5svDP8gBNm_qYRy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5swESk8GcaMgwt5" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5swESk8GcaMgwt5",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sxDkdJT1nCaGsL" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5sxDkdJT1nCaGsL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5sz-4vsHwZKs6Co" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5sz-4vsHwZKs6Co",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t-HVM8G6XaYIW3" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5t-HVM8G6XaYIW3",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t0yqqCNZs-yDLO" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5t0yqqCNZs-yDLO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t1crCGCa4iBdzX" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5t1crCGCa4iBdzX",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5t3HupxNCFonY-b" : {
+      "-KmTJ5t4hEZKw_RKSzdV" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5t4hEZKw_RKSzdV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t5MypQ9Ub7t1-C" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5t5MypQ9Ub7t1-C",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t6hKj1FsCMn8Zi" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5t6hKj1FsCMn8Zi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t8vheTcOWHLFCt" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5t8vheTcOWHLFCt",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t9ptGG57apXZP3" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5t9ptGG57apXZP3",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tAg90MibULGie-" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5tAg90MibULGie-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tBJIOGAStLLZqQ" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5tBJIOGAStLLZqQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tDUBMt1KklCld4" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5tDUBMt1KklCld4",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tEpSBest2YUwGc" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5tEpSBest2YUwGc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tGA9t84ExUAz5q" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5tGA9t84ExUAz5q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5tHeTraoPsI5qDy" : {
+      "-KmTJ5tI9UPHd8Cg82G7" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5tI9UPHd8Cg82G7",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tJl85Hb2oMV2Na" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5tJl85Hb2oMV2Na",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tLQUhjs-yXg_qF" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5tLQUhjs-yXg_qF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tM0uqvLpd07Cju" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5tM0uqvLpd07Cju",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tOXk1sUYUqJGvn" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5tOXk1sUYUqJGvn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tPjbnmi2ybto1S" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5tPjbnmi2ybto1S",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tRW96Er_lOu-O9" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5tRW96Er_lOu-O9",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tS2uTqU9N4gyv2" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5tS2uTqU9N4gyv2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tTZYMGfSHtl-qh" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5tTZYMGfSHtl-qh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tVIst7w-9WV0DE" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5tVIst7w-9WV0DE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5tWPo98N1MJShLE" : {
+      "-KmTJ5tXmWVhD06ENgJb" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5tXmWVhD06ENgJb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tZ3ZM9p4DXjKT1" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5tZ3ZM9p4DXjKT1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5t_r3XXd7PbR2Sq" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5t_r3XXd7PbR2Sq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tbtH7k8xHz3Yd8" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5tbtH7k8xHz3Yd8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tdMMZILE_-C904" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5tdMMZILE_-C904",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tenwm7HNO28348" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5tenwm7HNO28348",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tfiS9r2qjOguV8" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5tfiS9r2qjOguV8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tgKd9xeXpagrqG" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5tgKd9xeXpagrqG",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tho7cHJ28-kDC2" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5tho7cHJ28-kDC2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tilTnPYU-FR4yF" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5tilTnPYU-FR4yF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5tjl_z27sVBmsBr" : {
+      "-KmTJ5tkzRfzK3tMYE9-" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5tkzRfzK3tMYE9-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tmubflNdr2xZYC" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5tmubflNdr2xZYC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tnD_VzA2GoWdMv" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5tnD_VzA2GoWdMv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tpM2tUjT4k6rwe" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5tpM2tUjT4k6rwe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tqWhw45NvGtujn" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5tqWhw45NvGtujn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5trSL0n5oViP6g-" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5trSL0n5oViP6g-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5trSL0n5oViP6g0" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5trSL0n5oViP6g0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tshMuW87TQXwL0" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5tshMuW87TQXwL0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5ttYifvggKNDMyL" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5ttYifvggKNDMyL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tu0pJ-6Qu9JNBT" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5tu0pJ-6Qu9JNBT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5tvuAnNV00B8MZe" : {
+      "-KmTJ5tvuAnNV00B8MZf" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5tvuAnNV00B8MZf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5txyXwO2socfOMM" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5txyXwO2socfOMM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5tys9064GEQjHIe" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5tys9064GEQjHIe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u-jW4zfrAM7ahE" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5u-jW4zfrAM7ahE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u0tDrUcNyZEt1q" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5u0tDrUcNyZEt1q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u2c4afs0HqIUES" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5u2c4afs0HqIUES",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u3LQcEQZNWfNjB" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5u3LQcEQZNWfNjB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u4IHpGZPVOvtzu" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5u4IHpGZPVOvtzu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u58C_P9Lpkj8-0" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5u58C_P9Lpkj8-0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5u7p_A6J8-C-2Rh" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5u7p_A6J8-C-2Rh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5u8I4MuqVBpey1Y" : {
+      "-KmTJ5u9xKpebJpTKRoy" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5u9xKpebJpTKRoy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uB2ylmSvzqflC2" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5uB2ylmSvzqflC2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uCXlLqgzb5XGW4" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5uCXlLqgzb5XGW4",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uDMKHDPgED9xFh" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5uDMKHDPgED9xFh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uFWiq_pFT2t-FL" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5uFWiq_pFT2t-FL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uGWqRhy-BXMUMs" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5uGWqRhy-BXMUMs",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uIwwYJwUabb-YL" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5uIwwYJwUabb-YL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5unU3xH4x-7YZO-" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5unU3xH4x-7YZO-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uoY3LXgOtP87ZO" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5uoY3LXgOtP87ZO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5upBzGcGpVp477P" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5upBzGcGpVp477P",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5uqAsdSMEgE-z77" : {
+      "-KmTJ5ur0KTu70fYnMsb" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5ur0KTu70fYnMsb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5usMO30IX4zZDK9" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5usMO30IX4zZDK9",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5ut-rumkr5FnF9c" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5ut-rumkr5FnF9c",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uuQeIW-ZhVR4LN" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5uuQeIW-ZhVR4LN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uvC8-qmGFPBHA3" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5uvC8-qmGFPBHA3",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uwcfIHZbG91y_6" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5uwcfIHZbG91y_6",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uwcfIHZbG91y_7" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5uwcfIHZbG91y_7",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uxfkVUqYVSgZLf" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5uxfkVUqYVSgZLf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uyxY7asEaRNgkF" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5uyxY7asEaRNgkF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5uzZuoG_Pl79jtH" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5uzZuoG_Pl79jtH",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJ5v-oGaQXhiZjAen" : {
+      "-KmTJ5v0bh0Ucg1VV7yc" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJ5v0bh0Ucg1VV7yc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v1vmj1PqK-Sw1D" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJ5v1vmj1PqK-Sw1D",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v2qk7floKPK70H" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJ5v2qk7floKPK70H",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v3kLPmciK8uwI6" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJ5v3kLPmciK8uwI6",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v4QCSNcWda5qDs" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJ5v4QCSNcWda5qDs",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v5en9Io5zzCJ9w" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJ5v5en9Io5zzCJ9w",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v6ve9PSpdO3Q2U" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJ5v6ve9PSpdO3Q2U",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v7lx5gP3oYfh3A" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJ5v7lx5gP3oYfh3A",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v7lx5gP3oYfh3B" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJ5v7lx5gP3oYfh3B",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJ5v8mspQfXH0fwLc" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJ5v8mspQfXH0fwLc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBhzA5L8yQpaSUpQ" : {
+      "-KmTJBiPwbjZb4d8NKgQ" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBiPwbjZb4d8NKgQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiUzK4TVF24fok2" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBiUzK4TVF24fok2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiWyIZoK4jfXWs7" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBiWyIZoK4jfXWs7",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiXaDT5OFSaqfih" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBiXaDT5OFSaqfih",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiY3tmnl4JOOGzH" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBiY3tmnl4JOOGzH",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiZpmATZlr-mhvV" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBiZpmATZlr-mhvV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBi_aSmwJn0p4ORD" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBi_aSmwJn0p4ORD",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiaIU7vCDQuZOJU" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBiaIU7vCDQuZOJU",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBibMOqHpJT_23Tu" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBibMOqHpJT_23Tu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBicQF6bZ--ECXvy" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBicQF6bZ--ECXvy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBidU7YBuIpkbYhb" : {
+      "-KmTJBiejuwZSDYwBXDv" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBiejuwZSDYwBXDv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBifrf8y1m1VifQB" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBifrf8y1m1VifQB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBigLCXqyCrX5TWq" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBigLCXqyCrX5TWq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBihgf2dE6Nu1x13" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBihgf2dE6Nu1x13",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBii8RNwqUB_S3KP" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBii8RNwqUB_S3KP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBijLg7ZExwHK5fM" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBijLg7ZExwHK5fM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBikMvYgNy1Cu57T" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBikMvYgNy1Cu57T",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBilM4wNDffmgoSe" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBilM4wNDffmgoSe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBimoTYtaRwbbclK" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBimoTYtaRwbbclK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBinMCu-jxI0HE1l" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBinMCu-jxI0HE1l",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBiozRMzOyiJ8Deq" : {
+      "-KmTJBipJqz0OZX_o_04" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBipJqz0OZX_o_04",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiq26qc8Efblnnh" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBiq26qc8Efblnnh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBir9lQy4lZtEppz" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBir9lQy4lZtEppz",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBis3LBfXBxRwPue" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBis3LBfXBxRwPue",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBitkUy3KwbgbVOG" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBitkUy3KwbgbVOG",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiuc3-xIySuW3j0" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBiuc3-xIySuW3j0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiv0JB42NTMAt7u" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBiv0JB42NTMAt7u",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiwRzjCFIVS2qJB" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBiwRzjCFIVS2qJB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBixPiDBJMZvn87z" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBixPiDBJMZvn87z",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBiyvaBDNjFwsYqm" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBiyvaBDNjFwsYqm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBizF8DemmsM3nCh" : {
+      "-KmTJBj-jvS9imEBaGae" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBj-jvS9imEBaGae",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj0-KE4lpG6UPML" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBj0-KE4lpG6UPML",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj1hxLTWrj6Rvhd" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBj1hxLTWrj6Rvhd",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj2yxVKpET_w5FY" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBj2yxVKpET_w5FY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj3d-BCTLVdO4Dm" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBj3d-BCTLVdO4Dm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj4lVwa5oVs-w3G" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBj4lVwa5oVs-w3G",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj5K2iC0QJoh8Wi" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBj5K2iC0QJoh8Wi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj6W9kqf46C8gXU" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBj6W9kqf46C8gXU",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj7ODFY4J2CoiDn" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBj7ODFY4J2CoiDn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj8QzVSwUjYq-5h" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBj8QzVSwUjYq-5h",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBj92UOtdWVGJ1Mv" : {
+      "-KmTJBjA-shnxHHiIoC-" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBjA-shnxHHiIoC-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjA-shnxHHiIoC0" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBjA-shnxHHiIoC0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjBLEhStQ15X2YM" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBjBLEhStQ15X2YM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjCtK7Vd_uM9Fdo" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBjCtK7Vd_uM9Fdo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjDDA3D-q1Y5_JC" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBjDDA3D-q1Y5_JC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjERqyFNGohwEn8" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBjERqyFNGohwEn8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjFcCdXvtRmbReg" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBjFcCdXvtRmbReg",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjGaIjKlS2Y8bmT" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBjGaIjKlS2Y8bmT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjH84hNTuIkAj-w" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBjH84hNTuIkAj-w",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjIOfKF9f1e2KrF" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBjIOfKF9f1e2KrF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBjJUMZlpo6TeTh6" : {
+      "-KmTJBjJUMZlpo6TeTh7" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBjJUMZlpo6TeTh7",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjK5rp1sLY1HoCw" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBjK5rp1sLY1HoCw",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjLVpfBYgL7C-x8" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBjLVpfBYgL7C-x8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjM3rq2NNnKxyOO" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBjM3rq2NNnKxyOO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjNjSBcSQqT8k8z" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBjNjSBcSQqT8k8z",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjOb_r4ntFldpUV" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBjOb_r4ntFldpUV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjOb_r4ntFldpUW" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBjOb_r4ntFldpUW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjPaFHiFX5nmxvu" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBjPaFHiFX5nmxvu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjQKUE9kdE0Ha4U" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBjQKUE9kdE0Ha4U",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjRQvTZFPUM28MN" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBjRQvTZFPUM28MN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBjSOOkXFPTo6LND" : {
+      "-KmTJBjTA89o2njE_nsU" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBjTA89o2njE_nsU",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjU6oWmOO1xrnFP" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBjU6oWmOO1xrnFP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjVdbGyodw7XQF9" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBjVdbGyodw7XQF9",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjVdbGyodw7XQFA" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBjVdbGyodw7XQFA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjW3neVRPwtq9pO" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBjW3neVRPwtq9pO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjX4jkVeGSpWCRu" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBjX4jkVeGSpWCRu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjY4naNwqe_q7Of" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBjY4naNwqe_q7Of",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjZyDPE5sVf2BMJ" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBjZyDPE5sVf2BMJ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBj_f9pF2a7vwu3L" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBj_f9pF2a7vwu3L",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjaQejINZ-zIN-k" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBjaQejINZ-zIN-k",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBjbeZcqu8rPTGNW" : {
+      "-KmTJBjbeZcqu8rPTGNX" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBjbeZcqu8rPTGNX",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjcEplH8Gu_LHEl" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBjcEplH8Gu_LHEl",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjdmhQFm-OeArZJ" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBjdmhQFm-OeArZJ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjetSO1z4Xc3wky" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBjetSO1z4Xc3wky",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjfc72E2cGoBTrF" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBjfc72E2cGoBTrF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjoM9hHOm7_Eb4m" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBjoM9hHOm7_Eb4m",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjpk8JRA9-lSJyv" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBjpk8JRA9-lSJyv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjr9t6QMyvEi1GY" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBjr9t6QMyvEi1GY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjs32fkRt4p-0Q_" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBjs32fkRt4p-0Q_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjtWbxwwuhdu_ft" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBjtWbxwwuhdu_ft",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBjuPGiAbdzYDxLQ" : {
+      "-KmTJBjuPGiAbdzYDxLR" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBjuPGiAbdzYDxLR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjvtfVfAQYWbrWC" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBjvtfVfAQYWbrWC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBjzCmT89qtvLK_z" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBjzCmT89qtvLK_z",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk-xyvaJ80KOcZ1" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBk-xyvaJ80KOcZ1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk0Xtepc-GOtO5R" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBk0Xtepc-GOtO5R",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk1X5osf8zaJVP0" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBk1X5osf8zaJVP0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk1X5osf8zaJVP1" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBk1X5osf8zaJVP1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk2YuW92FUGz_YQ" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBk2YuW92FUGz_YQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk36UmHQC7mD0Z0" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBk36UmHQC7mD0Z0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk4ltvxs8VhCXXI" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBk4ltvxs8VhCXXI",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-KmTJBk5-2lt2jI8kcDB" : {
+      "-KmTJBk6JPg_phuwNBRs" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-KmTJBk6JPg_phuwNBRs",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk7xhzL5ykjdBCl" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-KmTJBk7xhzL5ykjdBCl",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk86AyNRnsf4Qzu" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-KmTJBk86AyNRnsf4Qzu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBk9wKq0wbrs4eUJ" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-KmTJBk9wKq0wbrs4eUJ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkBwkji_pB9jVNp" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-KmTJBkBwkji_pB9jVNp",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkCa968Abg7iomx" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-KmTJBkCa968Abg7iomx",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkDt3skMORR56-m" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-KmTJBkDt3skMORR56-m",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkE3rmcPOsQmMEO" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-KmTJBkE3rmcPOsQmMEO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkGVdsnG9eOtaWE" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-KmTJBkGVdsnG9eOtaWE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-KmTJBkHhtz8-GqUII5r" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-KmTJBkHhtz8-GqUII5r",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02nPw-IDNxHezDW8" : {
+      "-Kmr02o-fFHO-TwYjSeR" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02o-fFHO-TwYjSeR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02o51mLTE-XGgNuZ" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02o51mLTE-XGgNuZ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02o7lTdEmuASTyjK" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02o7lTdEmuASTyjK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02o8ZafTIl_9U7Dq" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02o8ZafTIl_9U7Dq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02o9B9rVi_0QGfNm" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02o9B9rVi_0QGfNm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oBJD5dVkoMFHht" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02oBJD5dVkoMFHht",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oCOOsAkhhv770H" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02oCOOsAkhhv770H",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oEj8Vzs7L--9fq" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02oEj8Vzs7L--9fq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oGx_YrIPQwVHlu" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02oGx_YrIPQwVHlu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oHVqnPSGVlDGyB" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02oHVqnPSGVlDGyB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02oIqNew8Pv5nlWr" : {
+      "-Kmr02oKEdfaWSMJy4F_" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02oKEdfaWSMJy4F_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oPmYILrOGxv3xo" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02oPmYILrOGxv3xo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oTH7kJrHwvOZBb" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02oTH7kJrHwvOZBb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oUN4WuZRWKmcAT" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02oUN4WuZRWKmcAT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oW_pKx4zB8f33l" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02oW_pKx4zB8f33l",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oXx-ukz8M5FUJL" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02oXx-ukz8M5FUJL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oYuak4AO_3TKh2" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02oYuak4AO_3TKh2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02o_vJcwPUGZTPOm" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02o_vJcwPUGZTPOm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02obWEE6tn6EZkP0" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02obWEE6tn6EZkP0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ocOvJOAbOINbKN" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02ocOvJOAbOINbKN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02odYVl_g6OKsbs3" : {
+      "-Kmr02oePW5gFQ8wRiog" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02oePW5gFQ8wRiog",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ofNuWiFEkGzBhX" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02ofNuWiFEkGzBhX",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ohoropfnn57iZ2" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02ohoropfnn57iZ2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oiyAATQcG7dT6W" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02oiyAATQcG7dT6W",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oj7Py2LAfKdRaf" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02oj7Py2LAfKdRaf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02okRas83FfAKxvw" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02okRas83FfAKxvw",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02omHoJZPwp7sdpm" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02omHoJZPwp7sdpm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02onYruitxT1mQOA" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02onYruitxT1mQOA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ooMSlAtbHa6U_e" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02ooMSlAtbHa6U_e",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02opHypckuxSPE97" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02opHypckuxSPE97",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02orF2yKc9TwJuQZ" : {
+      "-Kmr02osnruXjkikUOS8" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02osnruXjkikUOS8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oty6WJwNBm5XCg" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02oty6WJwNBm5XCg",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ouQ1_zTnqoF_Ms" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02ouQ1_zTnqoF_Ms",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ovx7U6hrFUrOqd" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02ovx7U6hrFUrOqd",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oxkI07qvg4DrcE" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02oxkI07qvg4DrcE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02oyDB8URPBivD7y" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02oyDB8URPBivD7y",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ozsz_lfaxP-lZM" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02ozsz_lfaxP-lZM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p-zN-NxQtdXxpa" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02p-zN-NxQtdXxpa",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p1DhlKH2nqcnjJ" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02p1DhlKH2nqcnjJ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p2hgkSUKLSwXf6" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02p2hgkSUKLSwXf6",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02p3T4h_5bIaExJ1" : {
+      "-Kmr02p4KaWkZ-bYGHKZ" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02p4KaWkZ-bYGHKZ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p6PIHAGncCmcxG" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02p6PIHAGncCmcxG",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p7isWkvLPY3qse" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02p7isWkvLPY3qse",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p84FmEs5gvAziW" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02p84FmEs5gvAziW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pAxV0J3RFu10_u" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02pAxV0J3RFu10_u",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pBkqnmAESq8NIV" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02pBkqnmAESq8NIV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pDMdkfrr_LyWcF" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02pDMdkfrr_LyWcF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pEub0sTycjSXoC" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02pEub0sTycjSXoC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pFwYxQegkMAcqj" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02pFwYxQegkMAcqj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pGj0aJuh_vGe6b" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02pGj0aJuh_vGe6b",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02pIcK_ScMqd43yu" : {
+      "-Kmr02pIcK_ScMqd43yv" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02pIcK_ScMqd43yv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pKf264ZoHhTXm-" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02pKf264ZoHhTXm-",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pLvqdMi5XYnzBu" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02pLvqdMi5XYnzBu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pM18ZdTOdoD8ss" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02pM18ZdTOdoD8ss",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pOwTT7O3wJeRpK" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02pOwTT7O3wJeRpK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pPNXcmzftBV3GL" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02pPNXcmzftBV3GL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pRwNjO0WsYFCFh" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02pRwNjO0WsYFCFh",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pSPST7Yxj16lCk" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02pSPST7Yxj16lCk",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pTyA8ZTJnmjjmN" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02pTyA8ZTJnmjjmN",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pUjoWTNffxz_8G" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02pUjoWTNffxz_8G",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02pW8xxFPEKezXK2" : {
+      "-Kmr02pX2LinArXkGfbT" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02pX2LinArXkGfbT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pYcJttm08_kcJj" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02pYcJttm08_kcJj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02p_fc3wMhHAt83I" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02p_fc3wMhHAt83I",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pa2ETlN0d3HAiz" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02pa2ETlN0d3HAiz",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pbQ8BV3EE-zlfP" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02pbQ8BV3EE-zlfP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pdnPRRLCCH2-om" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02pdnPRRLCCH2-om",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02peVqga5n6Cn4sY" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02peVqga5n6Cn4sY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pfC0uJMdyUbJNx" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02pfC0uJMdyUbJNx",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pheYRz2HKOuSbj" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02pheYRz2HKOuSbj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pi-0PSYt1Pfva8" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02pi-0PSYt1Pfva8",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02pjYm56cUHnNKh-" : {
+      "-Kmr02pkOYkOpD9qjuYv" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02pkOYkOpD9qjuYv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pl8iP-lq_lCdJj" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02pl8iP-lq_lCdJj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pmzBXYdYsQyi35" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02pmzBXYdYsQyi35",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pnFf7pbjrx4EH2" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02pnFf7pbjrx4EH2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ppsfXMjYNzglQV" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02ppsfXMjYNzglQV",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pqxMGtTOIPWJSd" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02pqxMGtTOIPWJSd",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02prDyzgezScGmJC" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02prDyzgezScGmJC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02ptPSrQ-9r4cYkr" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02ptPSrQ-9r4cYkr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02puAkFFSeVTMCNQ" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02puAkFFSeVTMCNQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pvwv5DeYBU8I6v" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02pvwv5DeYBU8I6v",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02pwWIDylR4_9ben" : {
+      "-Kmr02pwWIDylR4_9beo" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02pwWIDylR4_9beo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02px_s9UoKpbC36r" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02px_s9UoKpbC36r",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02pyQ1i3dI1FI6JO" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02pyQ1i3dI1FI6JO",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q-07kOv8O2ftAE" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02q-07kOv8O2ftAE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q0NVgYhCHdYqiv" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02q0NVgYhCHdYqiv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q19gbARfK6i23i" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02q19gbARfK6i23i",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q2Olz7SxDiiN-n" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02q2Olz7SxDiiN-n",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q3oenI6D6b_RGm" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02q3oenI6D6b_RGm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q4ocv_quuMReE1" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02q4ocv_quuMReE1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q5dZO0_APGSJmL" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02q5dZO0_APGSJmL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kmr02q6b4rFCXuPJtQt" : {
+      "-Kmr02q7UzWUkUD62AEb" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kmr02q7UzWUkUD62AEb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q8dvz-5X89nXed" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kmr02q8dvz-5X89nXed",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02q9k2ma7q4kwi-x" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kmr02q9k2ma7q4kwi-x",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qABkEsDxIHsfjc" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kmr02qABkEsDxIHsfjc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qBlIIVQCpz9t4s" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kmr02qBlIIVQCpz9t4s",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qC_NIHOk3KSIJc" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kmr02qC_NIHOk3KSIJc",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qDwPAf_n8ZrQME" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kmr02qDwPAf_n8ZrQME",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qEI4tVWNPW4iDy" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kmr02qEI4tVWNPW4iDy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qFL589OVSRI97S" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kmr02qFL589OVSRI97S",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kmr02qGeALqvs9JV9Pn" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kmr02qGeALqvs9JV9Pn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39TUwQustc4yHh17" : {
+      "-Kn-39U52xNiE2wiWa6k" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39U52xNiE2wiWa6k",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UBaNdG6jSyM-WW" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39UBaNdG6jSyM-WW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UDYJdF6fI2bmRb" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39UDYJdF6fI2bmRb",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UE90QM9dIjGOza" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39UE90QM9dIjGOza",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UGcMdEu9d7zeyp" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39UGcMdEu9d7zeyp",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UH6635jT-7o3eS" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39UH6635jT-7o3eS",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UJ3e_7HuCRdCSK" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39UJ3e_7HuCRdCSK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UKRrvSodqos_XK" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39UKRrvSodqos_XK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39ULshdUZQxRwd22" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39ULshdUZQxRwd22",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UNvovtd6aWl3Es" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39UNvovtd6aWl3Es",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39UOaW56LiOX9L82" : {
+      "-Kn-39UPI-sT6l8RxvoZ" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39UPI-sT6l8RxvoZ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UQAdQvBmi08qtB" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39UQAdQvBmi08qtB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39USq-fwHpTdjq5Q" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39USq-fwHpTdjq5Q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UTyt9ln0b6JBuG" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39UTyt9ln0b6JBuG",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UUqroCZhAj4Jgn" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39UUqroCZhAj4Jgn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UV-3L1gNw-Ic7p" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39UV-3L1gNw-Ic7p",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UWb0t8dka4j1GK" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39UWb0t8dka4j1GK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UYddYt2n7bOFFn" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39UYddYt2n7bOFFn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UZFJiOEVYMnkvi" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39UZFJiOEVYMnkvi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39U_Wt1acf8Z-7LE" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39U_Wt1acf8Z-7LE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39UbadP9f3uOAPzA" : {
+      "-Kn-39UbadP9f3uOAPzB" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39UbadP9f3uOAPzB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UdLUIkHmED0K5v" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39UdLUIkHmED0K5v",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UeSj2SaVJN3CvF" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39UeSj2SaVJN3CvF",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Ufqo6iwlFm6ncW" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39Ufqo6iwlFm6ncW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Uh9zDwwgsFmU-r" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39Uh9zDwwgsFmU-r",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UiuSDPfxnJowDo" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39UiuSDPfxnJowDo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Uk4-l5YzDrHzSv" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39Uk4-l5YzDrHzSv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UlcwQ3cMjRc8Do" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39UlcwQ3cMjRc8Do",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UmqiN_QRo2H1tg" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39UmqiN_QRo2H1tg",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UnNII28NDZux1U" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39UnNII28NDZux1U",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39UpOehiveBJJuDF" : {
+      "-Kn-39Uqxk9QjjOCFMvs" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39Uqxk9QjjOCFMvs",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UrfxUSenNfDNLr" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39UrfxUSenNfDNLr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Ut9GiA8yz7SWoR" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39Ut9GiA8yz7SWoR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Uu67HJU3CxHdGy" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39Uu67HJU3CxHdGy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Uve5BDPm72Pu4Q" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39Uve5BDPm72Pu4Q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UxbhdKaiuywQgu" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39UxbhdKaiuywQgu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39UyrpmzxLRBz4vm" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39UyrpmzxLRBz4vm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Uz8EoQ6VuZw0cQ" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39Uz8EoQ6VuZw0cQ",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V0NmhqXkFk17Ev" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39V0NmhqXkFk17Ev",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V1YXnPhplVRifq" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39V1YXnPhplVRifq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39V3nbr7sOQcK3qJ" : {
+      "-Kn-39V3nbr7sOQcK3qK" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39V3nbr7sOQcK3qK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V5OdXTuGfD2wj5" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39V5OdXTuGfD2wj5",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V69CfoQagypfxm" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39V69CfoQagypfxm",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V7DouU_DlC45ux" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39V7DouU_DlC45ux",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V9aPJp4j2TTmr4" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39V9aPJp4j2TTmr4",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VAg0lH9oqL3VJY" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39VAg0lH9oqL3VJY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VBN5q8ZdZ4S3IK" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39VBN5q8ZdZ4S3IK",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VDSvONhdGO0h7Y" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39VDSvONhdGO0h7Y",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VEGBp93xpXWMoE" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39VEGBp93xpXWMoE",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VFAnuxbcNkuFyv" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39VFAnuxbcNkuFyv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39VHDEPPFMQzyltY" : {
+      "-Kn-39VIOvn_GfjxkX6H" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39VIOvn_GfjxkX6H",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VJfNugmFfNfpHL" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39VJfNugmFfNfpHL",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VKWDCyTpEapdht" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39VKWDCyTpEapdht",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VM3kMXkE2Qkefy" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39VM3kMXkE2Qkefy",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VN5vZiEGbnYV6Z" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39VN5vZiEGbnYV6Z",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VPDl3vH-aUql0K" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39VPDl3vH-aUql0K",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VQKbOWoR7cONrg" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39VQKbOWoR7cONrg",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VRRIC-M0KOBgou" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39VRRIC-M0KOBgou",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VSixKJ5ktxH34L" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39VSixKJ5ktxH34L",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VUL1GT3ECGE1bk" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39VUL1GT3ECGE1bk",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39VV5LsTjHSoRsOY" : {
+      "-Kn-39VWUMrJJ2x5FF6v" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39VWUMrJJ2x5FF6v",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VYO3PehBnl9W3J" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39VYO3PehBnl9W3J",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VZwRZP_FLIKV_E" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39VZwRZP_FLIKV_E",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39V_qxk2AikW8LUv" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39V_qxk2AikW8LUv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VbyJLlUBl0hFDR" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39VbyJLlUBl0hFDR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VcG8vFZYLDDoJA" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39VcG8vFZYLDDoJA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VdvYxZogFtmsXu" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39VdvYxZogFtmsXu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VfH62g5hdgp2tw" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39VfH62g5hdgp2tw",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VgUB1lad6SSCMY" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39VgUB1lad6SSCMY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VhSQ5oDLq5eNOi" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39VhSQ5oDLq5eNOi",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39VjYguo_eGzAxuc" : {
+      "-Kn-39Vk2gxHuqHh7_OH" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39Vk2gxHuqHh7_OH",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VlA-WWpnKSLrAj" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39VlA-WWpnKSLrAj",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VmprZnYVSnS84Y" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39VmprZnYVSnS84Y",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Vo8f7Hx92rttV2" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39Vo8f7Hx92rttV2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VpJ4onwa2wOfII" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39VpJ4onwa2wOfII",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Vq6K6VboRoNuCz" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39Vq6K6VboRoNuCz",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Vssij4KWPvaCm5" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39Vssij4KWPvaCm5",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VtSzXDKWW9QT-i" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39VtSzXDKWW9QT-i",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39Vu2JH7MeS9oXC0" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39Vu2JH7MeS9oXC0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39VwUXrJjSe09w0K" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39VwUXrJjSe09w0K",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39Vx9EY46Sam6Dwy" : {
+      "-Kn-39VybSN3hgFJeFq7" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39VybSN3hgFJeFq7",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W-Ynuf65p6JcrT" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39W-Ynuf65p6JcrT",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W1lNNepb3nCksw" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39W1lNNepb3nCksw",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W2uyvneEUehtYl" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39W2uyvneEUehtYl",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W4d51_6h8FGCM3" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39W4d51_6h8FGCM3",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W5tlpoXyQGUlDS" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39W5tlpoXyQGUlDS",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W6rZqcOIoxAZWP" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39W6rZqcOIoxAZWP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W8vKM334hOX5nC" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39W8vKM334hOX5nC",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39W9kc2_lX25HD5s" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39W9kc2_lX25HD5s",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WAp_cInPXPuhBY" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39WAp_cInPXPuhBY",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-39WCp09YWHdhBucg" : {
+      "-Kn-39WDtQqJTEiWTOQr" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-39WDtQqJTEiWTOQr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WF7sPKoDJ62TaP" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-39WF7sPKoDJ62TaP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WGtgW_IN3O_W99" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-39WGtgW_IN3O_W99",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WITv4sxSXM3-jn" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-39WITv4sxSXM3-jn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WJYADe6PKJ3wJu" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-39WJYADe6PKJ3wJu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WLi6iTy-79Yi2f" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-39WLi6iTy-79Yi2f",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WMnh36jbpXdhhr" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-39WMnh36jbpXdhhr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WNCCZEVjcOq-qP" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-39WNCCZEVjcOq-qP",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WPZExu2N19u9Pv" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-39WPZExu2N19u9Pv",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-39WQHvTXXl-Tkxfo" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-39WQHvTXXl-Tkxfo",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-3DVKhuXOSS5CD_y8" : {
+      "-Kn-3DVMrYzNZz6Ezd7k" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-3DVMrYzNZz6Ezd7k",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVOpLa1glZ7-i1Q" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-3DVOpLa1glZ7-i1Q",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVQtD3-U42PDmpS" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-3DVQtD3-U42PDmpS",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVRXOOIAVGjDSZk" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-3DVRXOOIAVGjDSZk",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVTCNnWTFT0Ij7l" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-3DVTCNnWTFT0Ij7l",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVUi8Sy10q2_Z3e" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-3DVUi8Sy10q2_Z3e",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVWLaJa_fmdOgup" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-3DVWLaJa_fmdOgup",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVYaIRyQU1ocnwf" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-3DVYaIRyQU1ocnwf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVZTIdevY9REscz" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-3DVZTIdevY9REscz",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVaVLUxOrVxI3ju" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-3DVaVLUxOrVxI3ju",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-3DVcPsuLd5TkB8qJ" : {
+      "-Kn-3DVdH5lB5a3aACjr" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-3DVdH5lB5a3aACjr",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVfJ2Mh__rMAE1r" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-3DVfJ2Mh__rMAE1r",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVhh46hi4TzqVnR" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-3DVhh46hi4TzqVnR",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVilsePfqOHlmYx" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-3DVilsePfqOHlmYx",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVkPqV0wF1csqYB" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-3DVkPqV0wF1csqYB",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVmdp8KlRri6Dr_" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-3DVmdp8KlRri6Dr_",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVnU_jE8BS8OcWe" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-3DVnU_jE8BS8OcWe",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVp6VmuJHfljelM" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-3DVp6VmuJHfljelM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVr_fzPB7r7a0l3" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-3DVr_fzPB7r7a0l3",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVsSXf2i8-2MTnM" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-3DVsSXf2i8-2MTnM",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-3DVu6lyw0LBECuc3" : {
+      "-Kn-3DVvliVAh7CF4o72" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-3DVvliVAh7CF4o72",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVxiFngCdF7VZuq" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-3DVxiFngCdF7VZuq",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DVynQL6pOKUdPF0" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-3DVynQL6pOKUdPF0",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW-57xHoclJmW8V" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-3DW-57xHoclJmW8V",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW1f8Z5wK4IUxE2" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-3DW1f8Z5wK4IUxE2",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW3OjrGAWmhSaUu" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-3DW3OjrGAWmhSaUu",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW406aoyxeHSLcx" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-3DW406aoyxeHSLcx",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW5X7NVaXZuyTwA" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-3DW5X7NVaXZuyTwA",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW7l9caaaUU35MD" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-3DW7l9caaaUU35MD",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DW8nYX987RDMbt5" : {
+        "horaFim" : "92:55",
+        "horaInicio" : "91:33",
+        "id" : "-Kn-3DW8nYX987RDMbt5",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:9",
+        "palestrante" : "MESUZ"
+      }
+    },
+    "-Kn-3DWAKv6_glGuXrPD" : {
+      "-Kn-3DWBx3dlmMQNuJ6l" : {
+        "horaFim" : "02:55",
+        "horaInicio" : "01:33",
+        "id" : "-Kn-3DWBx3dlmMQNuJ6l",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:0",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWC3z_F3m-sRsks" : {
+        "horaFim" : "12:55",
+        "horaInicio" : "11:33",
+        "id" : "-Kn-3DWC3z_F3m-sRsks",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:1",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWE_zOpnSAF01Xn" : {
+        "horaFim" : "22:55",
+        "horaInicio" : "21:33",
+        "id" : "-Kn-3DWE_zOpnSAF01Xn",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:2",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWFJ8OwqM__5v39" : {
+        "horaFim" : "32:55",
+        "horaInicio" : "31:33",
+        "id" : "-Kn-3DWFJ8OwqM__5v39",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:3",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWHSsxqgcHs3Mnt" : {
+        "horaFim" : "42:55",
+        "horaInicio" : "41:33",
+        "id" : "-Kn-3DWHSsxqgcHs3Mnt",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:4",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWIurFnbGf9qduW" : {
+        "horaFim" : "52:55",
+        "horaInicio" : "51:33",
+        "id" : "-Kn-3DWIurFnbGf9qduW",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:5",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWKbO4g36qeNkgw" : {
+        "horaFim" : "62:55",
+        "horaInicio" : "61:33",
+        "id" : "-Kn-3DWKbO4g36qeNkgw",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:6",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWL_Tr1ARm_q0Gf" : {
+        "horaFim" : "72:55",
+        "horaInicio" : "71:33",
+        "id" : "-Kn-3DWL_Tr1ARm_q0Gf",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:7",
+        "palestrante" : "MESUZ"
+      },
+      "-Kn-3DWMxfkLoyApVBx1" : {
+        "horaFim" : "82:55",
+        "horaInicio" : "81:33",
+        "id" : "-Kn-3DWMxfkLoyApVBx1",
+        "local" : "SALA 101",
+        "nomeOficina" : "Aprendendo PY lvl:8",
+        "palestrante" : "MESUZ"
+      }
+    }
+  },
+  "Usuarios" : {
+    "2AF6khBTAPSTRra9dYlqyJKr38R2" : {
+      "-KmRw9G1kvhRepmUCa03" : {
+        "-KmRw9GhjjkwsLzkq1uT" : {
+          "horaEntrada" : "09:42:17",
+          "horaSaida" : "10:01:12",
+          "idoficina" : "-KmRw9GhjjkwsLzkq1uT",
+          "mac" : "38:A4:ED:8D:7F:5B",
+          "nomeEvento" : "1º Forúm Tecnologio - FATESG",
+          "nomeOFICINA" : "Aprendendo Python"
+        },
+        "-KmRw9GucLTDkiSaEVzL" : {
+          "horaEntrada" : "09:42:17",
+          "horaSaida" : "10:01:12",
+          "idoficina" : "-KmRw9GucLTDkiSaEVzL",
+          "mac" : "38:A4:ED:8D:7F:5B",
+          "nomeEvento" : "1º Forúm Tecnologio - FATESG",
+          "nomeOFICINA" : "Aprendendo Python"
+        }
+      },
+      "bluetoothMAC" : "38:A4:ED:8D:7F:5B",
+      "cpf" : "000.000.000-00",
+      "nome" : "João JJ"
+    },
+    "Af53whlfmhUJsSkEWV59OO6XNez2" : {
+      "bluetoothMAC" : "D0:E2:F7:2C:83:C6",
+      "cpf" : "0000000005",
+      "email" : "789joao@gtc.com",
+      "id" : "",
+      "nome" : "Rivaldo Santana",
+      "senha" : ""
+    }
+  }
+}

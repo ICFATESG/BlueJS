@@ -50,9 +50,10 @@ export class HomeComponent implements OnInit {
 
   initTheCount(){
     //console.log("BORAAAAAAAAAA")
-    this.hasIniti=true
-    this.macObs=this.mService.getMacs();
-    this.marcaEntrada(this.macObs)
+    //this.hasIniti=true
+   // this.macObs=this.mService.getMacs();
+   // this.marcaEntrada(this.macObs)
+   this.hfb.testeSET(this.workshopAt)
 
   }
   cancelTheCount(){
