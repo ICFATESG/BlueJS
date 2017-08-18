@@ -50,10 +50,10 @@ export class HomeComponent implements OnInit {
 
   initTheCount(){
     //console.log("BORAAAAAAAAAA")
-    //this.hasIniti=true
-   // this.macObs=this.mService.getMacs();
-   // this.marcaEntrada(this.macObs)
-   this.hfb.testeSET(this.workshopAt)
+    this.hasIniti=true
+    this.macObs=this.mService.getMacs();
+    this.marcaEntrada(this.macObs)
+   //this.hfb.testeSET(this.workshopAt)
 
   }
   cancelTheCount(){
@@ -72,8 +72,7 @@ export class HomeComponent implements OnInit {
         resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
         resultObservable.subscribe(usuarios => {
           usuarios.forEach(usr =>{
-            this.hfb.metodoteste(String(usr.key))
-            
+            this.hfb.entradaSET(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
           }
             
           )

@@ -182,9 +182,28 @@ export class HomeFbModule {
 
   }
 
-  testeSET(param:string){
-    const itemObservable = this.angularFire.object(`/Usuarios/Af53whlfmhUJsSkEWV59OO6XNez2/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
-    itemObservable.update({ name: param });
+  //Control of time entrance and exit of workshop
+
+  entradaSET(usrk:string,workshpName:string,eventName:string,macADD:string){
+    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    let dt:Date
+    dt = new Date()
+    itemObservable.update({
+       horaEntrada:`${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
+       idoficina:this.GLOBALWORKSHOPKEY,
+       mac:macADD,
+       nomeEvento: eventName,
+       nomeOficina: workshpName
+      });
+  }
+
+  saidaSET(usrk: string) {
+    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    let dt: Date
+    dt = new Date()
+    itemObservable.update({
+      horaSaida: `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
+    });
   }
 
 }
