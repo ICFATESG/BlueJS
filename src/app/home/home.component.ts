@@ -1,6 +1,6 @@
 import { Usuario } from '../usuario/usuario.model';
 import { Workshop } from './home-fb/workshop.model';
-import { Component, OnInit,Input,Output,EventEmitter} from '@angular/core';
+import { Component, OnInit,Input,Output,EventEmitter,AfterViewInit,OnDestroy,AfterViewChecked} from '@angular/core';
 import { ServiceComponent } from '../service/service.component'
 import { HomeFbModule} from '../home/home-fb/home-fb.module'
 import { AngularFireDatabase,FirebaseObjectObservable,FirebaseListObservable } from 'angularfire2/database';
@@ -19,6 +19,7 @@ import { MacService } from "../mac/mac.service";
 })
 @Injectable()
 export class HomeComponent implements OnInit {
+  private tokenInterval: any;  
   hasIniti : boolean =false
   @Output() eventAt:string=''
   @Output() workshopAt:string=''
@@ -36,6 +37,20 @@ export class HomeComponent implements OnInit {
   constructor(private usr:Usuario,private mService:MacService,private macs: MacsComponent,private angularFire: AngularFireDatabase,public hfb: HomeFbModule,private event:Event,private service:ServiceComponent) {
     this.eventos =this.hfb.snapdbEventos()
   }
+  ngAfterViewChecked()
+  {
+     let tempoSeg = 1;
+     //this.tokenInterval = setInterval(this.initTheCount, tempoSeg * 1000);
+
+  }
+
+  ngOnDestroy()
+  {
+     if (!!this.tokenInterval) clearInterval(this.tokenInterval);
+  }
+
+
+
   onChangeEvent(){
     this.hfb.GLOBALEVENTKEY=this.selectEvent
     this.eventAt=this.hfb.getnameOfEvent()
@@ -54,7 +69,8 @@ export class HomeComponent implements OnInit {
     this.macObs=this.mService.getMacs();
     this.marcaEntrada(this.macObs)
    //this.hfb.testeSET(this.workshopAt)
-
+    console.log('carniça');
+    
   }
   cancelTheCount(){
     //console.log("Paroooooooooooo")

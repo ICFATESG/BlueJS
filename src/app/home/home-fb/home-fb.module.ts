@@ -21,6 +21,7 @@ import 'rxjs/add/operator/catch';
   declarations: [HomeComponent]
 })
 export class HomeFbModule {
+  
   srtSearch: string = ""
   GLOBALWORKSHOPKEY: string = "";
   GLOBALEVENTKEY: string = "";
@@ -30,8 +31,7 @@ export class HomeFbModule {
   constructor(private oficinas: Oficina, private usr: Usuario, private angularFire: AngularFireDatabase) { }
 
   //-----------------METHODS--------------------
-
-
+  
   //Send a name of event and name of workshop to the DB --NOT USEFUL-- --SAMPLE--
   form_submit(eventAt: string, workshopAt: string) {
     this.angularFire.list("").push(
