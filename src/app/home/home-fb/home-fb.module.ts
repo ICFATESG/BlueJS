@@ -206,4 +206,9 @@ export class HomeFbModule {
     });
   }
 
+  metodot(){
+    console.log('picanha');
+    
+  }
+
 }
