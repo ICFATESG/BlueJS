@@ -1,7 +1,7 @@
 import { Oficina } from '../../oficinas/oficinas.model';
 import { Usuario } from '../../usuario/usuario.model';
 import { Workshop } from './workshop.model';
-import { NgModule, ɵConsole } from '@angular/core';
+import { NgModule, ɵConsole} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms'
 import { HomeComponent } from '../home.component'
@@ -21,7 +21,7 @@ import 'rxjs/add/operator/catch';
   declarations: [HomeComponent]
 })
 export class HomeFbModule {
-  
+
   srtSearch: string = ""
   GLOBALWORKSHOPKEY: string = "";
   GLOBALEVENTKEY: string = "";
@@ -31,7 +31,7 @@ export class HomeFbModule {
   constructor(private oficinas: Oficina, private usr: Usuario, private angularFire: AngularFireDatabase) { }
 
   //-----------------METHODS--------------------
-  
+
   //Send a name of event and name of workshop to the DB --NOT USEFUL-- --SAMPLE--
   form_submit(eventAt: string, workshopAt: string) {
     this.angularFire.list("").push(
@@ -58,27 +58,27 @@ export class HomeFbModule {
 
 
   //Return key o the mac user
-  getUserKeyMAC(MAC: string): FirebaseListObservable<any>{
+  getUserKeyMAC(MAC: string): FirebaseListObservable<any> {
     let key: string = ""
     let oMAC: string = ""
     let rt: any;
-    let us:any;
+    let us: any;
     oMAC = MAC
     this.items = this.angularFire.list('/Usuarios', { preserveSnapshot: true });
     us = new Usuario
     this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
-        let arrayTemp:any
+        let arrayTemp: any
         let aMAC: string = ""
         aMAC = snapshot.val().bluetoothMAC
         if (aMAC === oMAC) {
-          us.$id=snapshot.key
+          us.$id = snapshot.key
           us.$nome = snapshot.val().nome;
           us.$cpf = snapshot.val().cpf;
           us.$bluetoothMAC = snapshot.val().bluetoothMAC;
-          arrayTemp= new Array;
+          arrayTemp = new Array;
           arrayTemp = snapshot.val().oficinaVisitadas
-          us.$oficinaVisitadas=arrayTemp
+          us.$oficinaVisitadas = arrayTemp
         }
       });
     })
@@ -86,18 +86,19 @@ export class HomeFbModule {
   }
 
 
-  metodoteste(q:string){
-    q+="/"+this.GLOBALEVENTKEY
+  metodoteste(q: string) {
+    q += "/" + this.GLOBALEVENTKEY
     this.items = this.angularFire.list(`/Usuarios/${q}`, { preserveSnapshot: true });
-    this.items.subscribe(snapshot =>{
-        if(snapshot.length > 0){
+    this.items.subscribe(snapshot => {
+      if (snapshot.length > 0) {
         snapshot.forEach(
-          obj=>{
+          obj => {
             console.log(obj.val());
-            
+
           }
         )
-   } })
+      }
+    })
   }
   //Re-search with more parameters
 
@@ -184,17 +185,17 @@ export class HomeFbModule {
 
   //Control of time entrance and exit of workshop
 
-  entradaSET(usrk:string,workshpName:string,eventName:string,macADD:string){
+  entradaSET(usrk: string, workshpName: string, eventName: string, macADD: string) {
     const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
-    let dt:Date
+    let dt: Date
     dt = new Date()
     itemObservable.update({
-       horaEntrada:`${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
-       idoficina:this.GLOBALWORKSHOPKEY,
-       mac:macADD,
-       nomeEvento: eventName,
-       nomeOficina: workshpName
-      });
+      horaEntrada: `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
+      idoficina: this.GLOBALWORKSHOPKEY,
+      mac: macADD,
+      nomeEvento: eventName,
+      nomeOficina: workshpName
+    });
   }
 
   saidaSET(usrk: string) {
@@ -204,11 +205,6 @@ export class HomeFbModule {
     itemObservable.update({
       horaSaida: `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
     });
-  }
-
-  metodot(){
-    console.log('picanha');
-    
   }
 
 }

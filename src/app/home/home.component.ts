@@ -30,6 +30,8 @@ export class HomeComponent implements OnInit {
   @Output() selectWorkshop: string
   @Output() hasSelec: boolean = false;
   macObs:Observable<Mac[]>
+  maCACHE:Observable<Mac[]>;
+  macSaida:Mac[];
   items: FirebaseListObservable<any>;
   temp:Array<object>;
   ofAtual:string[]=[];
@@ -37,36 +39,12 @@ export class HomeComponent implements OnInit {
     this.eventos =this.hfb.snapdbEventos()
     this.hasIniti=false
   }
-  ngAfterViewChecked()
-  {
-     let tempoSeg = 1;
-     this.tokenInterval = setInterval(() => this.minhaF(), tempoSeg * 10000);
-     
-
+  ngOnInit(){
+    console.log('onInit...');
+    
+    this.separador()
   }
 
-  ngOnDestroy()
-  {
-     if (!!this.tokenInterval) clearInterval(this.tokenInterval);
-  }
-  
-  private minhaF()
-  {
-        //this.macObs=this.mService.getMacs();
-        //this.marcaEntrada(this.macObs)
-        //this.asdgasd()
-        
-  }
-
-  asdgasd(){
-    if(this.hasIniti==false){
-      console.log('false');
-      
-    }else{
-      console.log('true')
-    }
-  }
-  
   onChangeEvent(){
     this.hfb.GLOBALEVENTKEY=this.selectEvent
     this.eventAt=this.hfb.getnameOfEvent()
@@ -80,17 +58,60 @@ export class HomeComponent implements OnInit {
   }
 
   initTheCount(){
-    if (this.selectWorkshop==undefined || this.selectEvent==undefined){  
+    this.separador()
+   /* if (this.selectWorkshop==undefined || this.selectEvent==undefined){  
       alert('Favor selecionar um evento e uma oficina.')
     } else {
       this.hasIniti = true
-      this.macObs = this.mService.getMacs();
-      this.marcaEntrada(this.macObs)
-    }
+      this.principal()
+    }*/
   }
   cancelTheCount(){
-    //console.log("Paroooooooooooo")
     this.hasIniti=false
+  }
+
+  principal(){
+    if(this.hasIniti==true){
+      let timer:any
+      timer =setTimeout(() => {this.principal()},1000*20);
+    }
+      this.entrada()
+  }
+
+  separador(){
+    this.macObs=this.mService.getMacs();
+    if(this.maCACHE==undefined){
+      this.maCACHE=this.macObs
+    }else{
+      this.macObs.subscribe(macs1=>{
+        macs1.forEach((mac1)=>{
+          let cont=0;
+          let positive=false;
+            this.maCACHE.subscribe(macs2=>{
+              macs2.forEach((mac2)=>{
+                console.log(mac1.mac + " <==> "+ mac2.mac);
+                cont++
+                if(cont<macs2.length || positive==false){
+                  
+                  if(mac1.mac == mac2.mac){
+                    positive=true
+                    console.log('false');
+                    
+                  }
+                  if(positive){
+                    console.log('true?');
+                  }
+                }
+              })
+            })
+        })
+      })
+    }
+
+  }  
+
+  entrada(){
+        this.marcaEntrada(this.macObs)
   }
 
   marcaEntrada(obs:Observable<Mac[]>){
@@ -113,10 +134,7 @@ export class HomeComponent implements OnInit {
       })
   })
   }
-  ngOnInit(){
-
-  }
-
+  
 
 
 
