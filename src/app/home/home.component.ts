@@ -41,8 +41,7 @@ export class HomeComponent implements OnInit {
   }
   ngOnInit(){
     console.log('onInit...');
-    
-    this.separador()
+    this.saida()
   }
 
   onChangeEvent(){
@@ -58,13 +57,13 @@ export class HomeComponent implements OnInit {
   }
 
   initTheCount(){
-    this.separador()
-   /* if (this.selectWorkshop==undefined || this.selectEvent==undefined){  
+    
+    if (this.selectWorkshop==undefined || this.selectEvent==undefined){  
       alert('Favor selecionar um evento e uma oficina.')
     } else {
       this.hasIniti = true
       this.principal()
-    }*/
+    }
   }
   cancelTheCount(){
     this.hasIniti=false
@@ -76,47 +75,50 @@ export class HomeComponent implements OnInit {
       timer =setTimeout(() => {this.principal()},1000*20);
     }
       this.entrada()
+      this.saida()
   }
 
-  separador(){
+  saida(){
+    console.log('entrou SAIDA');
+    
     this.macObs=this.mService.getMacs();
     if(this.maCACHE==undefined){
       this.maCACHE=this.macObs
     }else{
       this.macObs.subscribe(macs1=>{
         macs1.forEach((mac1)=>{
-          let cont=0;
+          let cont;
+          cont=0
           let positive=false;
             this.maCACHE.subscribe(macs2=>{
               macs2.forEach((mac2)=>{
-                console.log(mac1.mac + " <==> "+ mac2.mac);
                 cont++
-                if(cont<macs2.length || positive==false){
-                  
+                //console.log(mac1.mac + " <==> "+ mac2.mac);
                   if(mac1.mac == mac2.mac){
                     positive=true
-                    console.log('false');
-                    
                   }
-                  if(positive){
-                    console.log('true?');
-                  }
+                if(cont==macs2.length && positive==false){
+                    this.saidaFB(mac1.mac)
                 }
               })
             })
         })
       })
     }
-
   }  
 
   entrada(){
+        console.log('entrou ENTRADA');
+        
         this.marcaEntrada(this.macObs)
   }
 
+
+  saidaFB(mac:string){
+      this.hfb.constSaida(mac)
+  }
+
   marcaEntrada(obs:Observable<Mac[]>){
-    
-    
     obs.subscribe(macs=>{
       macs.forEach((mac)=>{
         let us: any;
@@ -125,19 +127,15 @@ export class HomeComponent implements OnInit {
         resultObservable= this.hfb.getUserKeyMAC(String(mac.mac));
         resultObservable.subscribe(usuarios => {
           usuarios.forEach(usr =>{
-            this.hfb.entradaSET(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
-          }
-            
-          )
-          
+            let majorSec;
+            majorSec = this.hfb.majorEntrada(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
+            console.log(this.hfb.a);
+            if(majorSec==false){
+             // this.hfb.entradaSET(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
+            }
+          })
         }, (error) => { console.log('ocorreu um erro', error); });
       })
   })
   }
-  
-
-
-
-
-
 }

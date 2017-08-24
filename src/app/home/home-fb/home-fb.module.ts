@@ -21,14 +21,16 @@ import 'rxjs/add/operator/catch';
   declarations: [HomeComponent]
 })
 export class HomeFbModule {
-
+  a:any
   srtSearch: string = ""
   GLOBALWORKSHOPKEY: string = "";
   GLOBALEVENTKEY: string = "";
   items: FirebaseListObservable<any>;
   subItem: FirebaseListObservable<any>;
   temp: Array<object>;
-  constructor(private oficinas: Oficina, private usr: Usuario, private angularFire: AngularFireDatabase) { }
+  constructor(private oficinas: Oficina, private usr: Usuario, private angularFire: AngularFireDatabase) { 
+    this.a = new Boolean;
+  }
 
   //-----------------METHODS--------------------
 
@@ -156,7 +158,7 @@ export class HomeFbModule {
 
   }
 
-  //Methods NameOf
+//Methods NameOf
 
   getnameOfEvent(): string {
     let o: string
@@ -182,15 +184,25 @@ export class HomeFbModule {
     return o
 
   }
-
+  majorEntrada(usrk: string, workshpName: string, eventName: string, macADD: string){
+    let a:boolean
+    this.items = this.angularFire.list(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    this.items.subscribe(snapshot=>{ 
+        if(snapshot.length > 1){
+          this.a=true
+        }else{
+          this.a=false
+        }
+        
+    })
+    
+  }
   //Control of time entrance and exit of workshop
 
   entradaSET(usrk: string, workshpName: string, eventName: string, macADD: string) {
     const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
-    let dt: Date
-    dt = new Date()
     itemObservable.update({
-      horaEntrada: `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
+      horaEntrada: this.horario(),
       idoficina: this.GLOBALWORKSHOPKEY,
       mac: macADD,
       nomeEvento: eventName,
@@ -203,8 +215,30 @@ export class HomeFbModule {
     let dt: Date
     dt = new Date()
     itemObservable.update({
-      horaSaida: `${dt.getHours()}:${dt.getMinutes()}:${dt.getSeconds()}`,
+      horaSaida: this.horario(),
     });
   }
 
+
+  //get Data of user of CACHE list,and return key for saidaSET
+  constSaida(mac:String){
+    let resultObservableS : FirebaseListObservable <any>
+    resultObservableS = this.getUserKeyMAC(String(mac));
+    resultObservableS.subscribe((usr)=>{
+      usr.forEach(u => {
+        this.saidaSET(u.key)
+      });
+      
+    })
+  }
+  //format time
+  horario():string {
+    let dt:Date;dt=new Date();
+    let h;let m;let s;
+    if (dt.getHours() < 10) { h = '0' + dt.getHours() } else { h = dt.getHours() }
+    if (dt.getMinutes() < 10) { m = '0' + dt.getMinutes() } else { m = dt.getMinutes() }
+    if (dt.getSeconds() < 10) { s = '0' + dt.getSeconds() } else { s = dt.getSeconds() }
+    return h+':'+m+':'+s
+  }
 }
+ 
