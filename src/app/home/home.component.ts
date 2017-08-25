@@ -55,7 +55,6 @@ export class HomeComponent implements OnInit {
     this.hfb.GLOBALWORKSHOPKEY = this.selectWorkshop
     this.workshopAt=this.hfb.getnameOfWork()
   }
-
   initTheCount(){
     
     if (this.selectWorkshop==undefined || this.selectEvent==undefined){  

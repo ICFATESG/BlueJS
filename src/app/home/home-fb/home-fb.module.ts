@@ -21,6 +21,8 @@ import 'rxjs/add/operator/catch';
   declarations: [HomeComponent]
 })
 export class HomeFbModule {
+  hEntrada:string
+  hSaida:string
   a:boolean
   srtSearch: string = ""
   GLOBALWORKSHOPKEY: string = "";
@@ -164,7 +166,7 @@ export class HomeFbModule {
     this.items = this.angularFire.list('/Evento', { preserveSnapshot: true })
     this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
-        if (snapshot.key == this.GLOBALEVENTKEY) { o = snapshot.val().nomeEvento }
+        if (snapshot.key == this.GLOBALEVENTKEY) { o = snapshot.val().nomeEvento;}
       });
 
     })
@@ -176,7 +178,7 @@ export class HomeFbModule {
     this.items = this.angularFire.list(`/Oficinas/${this.GLOBALEVENTKEY}`, { preserveSnapshot: true })
     this.items.subscribe(snapshots => {
       snapshots.forEach(snapshot => {
-        if (snapshot.key == this.GLOBALWORKSHOPKEY) { o = snapshot.val().nomeOficina }
+        if (snapshot.key == this.GLOBALWORKSHOPKEY) { o = snapshot.val().nomeOficina; this.hEntrada = snapshot.val().horaInicio; this.hSaida = snapshot.val().horaFim }
       });
 
     })
@@ -203,6 +205,9 @@ export class HomeFbModule {
   //Control of time entrance and exit of workshop
 
   entradaSET(usrk: string, workshpName: string, eventName: string, macADD: string) {
+    let u: boolean
+    u = this.dentroDoPrazo(this.hEntrada)
+    if (u == true) {
     const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     itemObservable.update({
       horaEntrada: this.horario(),
@@ -211,15 +216,24 @@ export class HomeFbModule {
       nomeEvento: eventName,
       nomeOficina: workshpName
     });
+    } else {
+      alert('Conflito de horarios,favor atualizar a pagina e escolher uma oficina com horario compativel!')
+    }
   }
 
   saidaSET(usrk: string) {
+    let u:boolean
+    u=this.dentroDoPrazo(this.hSaida)
+    if(u == true){
     const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     let dt: Date
     dt = new Date()
     itemObservable.update({
       horaSaida: this.horario(),
     });
+    }else{
+      alert('Conflito de horarios,favor atualizar a pagina e escolher uma oficina com horario compativel!')
+    }
   }
 
 
@@ -242,6 +256,20 @@ export class HomeFbModule {
     if (dt.getMinutes() < 10) { m = '0' + dt.getMinutes() } else { m = dt.getMinutes() }
     if (dt.getSeconds() < 10) { s = '0' + dt.getSeconds() } else { s = dt.getSeconds() }
     return h+':'+m+':'+s
+  }
+  dentroDoPrazo(dat:string):boolean{
+    let b:boolean
+    let datDB = `1968-11-16T${dat}:00`
+    let s:string
+    s=this.horario()
+    let BD = new Date(`1968-11-16T${dat}`);
+    let newDate2 = new Date();
+    if (BD.getHours() <= newDate2.getHours()) {
+      b=true
+    } else {
+      b=false
+    } 
+    return b
   }
 }
  
