@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
   }
   ngOnInit(){
     console.log('onInit...');
-    this.saida()
+    //this.saida()
   }
 
   onChangeEvent(){
@@ -81,7 +81,7 @@ export class HomeComponent implements OnInit {
   saida(){
     console.log('entrou SAIDA');
     
-    this.macObs=this.mService.getMacs();
+    //this.macObs=this.mService.getMacs();
     if(this.maCACHE==undefined){
       this.maCACHE=this.macObs
     }else{
@@ -108,8 +108,8 @@ export class HomeComponent implements OnInit {
   }  
 
   entrada(){
+        this.macObs=this.mService.getMacs();
         console.log('entrou ENTRADA');
-        
         this.marcaEntrada(this.macObs)
   }
 
@@ -128,11 +128,11 @@ export class HomeComponent implements OnInit {
         resultObservable.subscribe(usuarios => {
           usuarios.forEach(usr =>{
             let majorSec;
-            majorSec = this.hfb.majorEntrada(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
-            console.log(this.hfb.a);
-            if(majorSec==false){
-             // this.hfb.entradaSET(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
+            this.hfb.majorEntrada(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
+            if(this.hfb.a==false){
+             this.hfb.entradaSET(String(usr.key), this.workshopAt, this.eventAt, String(usr.val().bluetoothMAC))
             }
+            this.hfb.a=undefined
           })
         }, (error) => { console.log('ocorreu um erro', error); });
       })

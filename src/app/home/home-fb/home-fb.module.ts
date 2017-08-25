@@ -21,7 +21,7 @@ import 'rxjs/add/operator/catch';
   declarations: [HomeComponent]
 })
 export class HomeFbModule {
-  a:any
+  a:boolean
   srtSearch: string = ""
   GLOBALWORKSHOPKEY: string = "";
   GLOBALEVENTKEY: string = "";
@@ -29,7 +29,6 @@ export class HomeFbModule {
   subItem: FirebaseListObservable<any>;
   temp: Array<object>;
   constructor(private oficinas: Oficina, private usr: Usuario, private angularFire: AngularFireDatabase) { 
-    this.a = new Boolean;
   }
 
   //-----------------METHODS--------------------
@@ -184,18 +183,22 @@ export class HomeFbModule {
     return o
 
   }
+
+  getMajor(s:boolean){
+    this.a=s
+  }
+
   majorEntrada(usrk: string, workshpName: string, eventName: string, macADD: string){
-    let a:boolean
     this.items = this.angularFire.list(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     this.items.subscribe(snapshot=>{ 
         if(snapshot.length > 1){
-          this.a=true
-        }else{
-          this.a=false
+          console.log('entrou true')
+          this.getMajor(true)
+        }else if(snapshot.length < 1){
+          console.log('entrou false')
+          this.getMajor(false)
         }
-        
     })
-    
   }
   //Control of time entrance and exit of workshop
 
