@@ -193,11 +193,13 @@ export class HomeFbModule {
   majorEntrada(usrk: string, workshpName: string, eventName: string, macADD: string){
     this.items = this.angularFire.list(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     this.items.subscribe(snapshot=>{ 
+      console.log(snapshot.length);
         if(snapshot.length > 1){
-          console.log('entrou true')
+          console.log('Existe')
           this.getMajor(true)
         }else if(snapshot.length < 1){
-          console.log('entrou false')
+          console.log('Não Existe')
+          this.entradaSET(usrk,workshpName,eventName,macADD)
           this.getMajor(false)
         }
     })

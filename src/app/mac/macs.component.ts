@@ -19,11 +19,10 @@ export class MacsComponent implements OnInit {
     printMacs(macsObservable:Observable<Mac[]>) {
         
         macsObservable.subscribe(macs=>{
-            macs.forEach((mac)=>{
+            macs.forEach((mac)=>{    
                 let a:string
                 a=mac.mac
                 console.log("a user have a mac => "+a);
-                
             })
             
         })
