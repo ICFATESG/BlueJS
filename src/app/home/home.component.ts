@@ -31,6 +31,7 @@ export class HomeComponent implements OnInit {
   @Output() hasSelec: boolean = false;
   macObs:Observable<Mac[]>
   maCACHE:Observable<Mac[]>;
+  macach:String[];
   macSaida:Mac[];
   items: FirebaseListObservable<any>;
   temp:Array<object>;
@@ -139,10 +140,47 @@ export class HomeComponent implements OnInit {
   })
   }
 
-  atualizarCACHE(){
+  atualizarCacheMAC(){
+    if(this.maCACHE==undefined){
+      this.macObs.subscribe(mac =>{
+        mac.forEach(macN =>{
+          this.macach.push(macN.mac)
+        })
+      }
+
+      )
+    }else{
+
+    }
+
+    
+  }
+
+  vseSaiu(){
     if(this.maCACHE==undefined){
       this.maCACHE=this.macObs
     }else{
+      this.macObs.subscribe(macs1=>{
+      macs1.forEach((mac1)=>{
+        let cont;
+        cont=0
+        let positive=false;
+          this.maCACHE.subscribe(macs2=>{
+            macs2.forEach((mac2)=>{
+              cont++
+              console.log(mac1.mac + " mac atual <==> mac cache "+ mac2.mac);
+                if(mac1.mac == mac2.mac){
+                  positive=true
+                }
+              if(cont==macs2.length && positive==false){
+                  console.log('O mac '+mac1.mac+ 'saiu da oficina');
+                  
+                  this.saidaFB(mac1.mac)
+              }
+            })
+          })
+      })
+    })
       
     }
   }

@@ -191,7 +191,7 @@ export class HomeFbModule {
   }
 
   majorEntrada(usrk: string, workshpName: string, eventName: string, macADD: string){
-    this.items = this.angularFire.list(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    this.items = this.angularFire.list(`/Usuarios/${usrk}/oficinaVisitadas/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     this.items.subscribe(snapshot=>{ 
       console.log(snapshot.length);
         if(snapshot.length > 1){
@@ -210,7 +210,7 @@ export class HomeFbModule {
     let u: boolean
     u = this.dentroDoPrazo(this.hEntrada)
     if (u == true) {
-    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/oficinaVisitadas/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     itemObservable.update({
       horaEntrada: this.horario(),
       idoficina: this.GLOBALWORKSHOPKEY,
@@ -227,7 +227,7 @@ export class HomeFbModule {
     let u:boolean
     u=this.dentroDoPrazo(this.hSaida)
     if(u == true){
-    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
+    const itemObservable = this.angularFire.object(`/Usuarios/${usrk}/oficinaVisitadas/${this.GLOBALEVENTKEY}/${this.GLOBALWORKSHOPKEY}`);
     let dt: Date
     dt = new Date()
     itemObservable.update({

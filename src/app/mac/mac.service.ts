@@ -11,8 +11,8 @@ export class MacService {
   constructor(private http: Http) { }
 
 getMacs():Observable<Mac[]>{
-  //return this.http.get('http://localhost:3000/macs')
-  return this.http.get('http://localhost:5000/macs')
+  return this.http.get('http://localhost:3000/macs')
+  // return this.http.get('http://localhost:5000/macs')
   
     .map(response => response.json())
     
