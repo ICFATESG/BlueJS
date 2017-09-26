@@ -81,32 +81,34 @@ export class HomeComponent implements OnInit {
 
   saida(){
     console.log('entrou SAIDA');
+    this.atualizarCacheMAC();
+    this.vseSaiu();
     //this.macObs=this.mService.getMacs();
-    if(this.maCACHE==undefined){
-      this.maCACHE=this.macObs
-    }else{
-      this.macObs.subscribe(macs1=>{
-        macs1.forEach((mac1)=>{
-          let cont;
-          cont=0
-          let positive=false;
-            this.maCACHE.subscribe(macs2=>{
-              macs2.forEach((mac2)=>{
-                cont++
-                console.log(mac1.mac + " mac atual <==> mac cache "+ mac2.mac);
-                  if(mac1.mac == mac2.mac){
-                    positive=true
-                  }
-                if(cont==macs2.length && positive==false){
-                    console.log('saiu');
+    // if(this.maCACHE==undefined){
+    //   this.maCACHE=this.macObs
+    // }else{
+    //   this.macObs.subscribe(macs1=>{
+    //     macs1.forEach((mac1)=>{
+    //       let cont;
+    //       cont=0
+    //       let positive=false;
+    //         this.maCACHE.subscribe(macs2=>{
+    //           macs2.forEach((mac2)=>{
+    //             cont++
+    //             console.log(mac1.mac + " mac atual <==> mac cache "+ mac2.mac);
+    //               if(mac1.mac == mac2.mac){
+    //                 positive=true
+    //               }
+    //             if(cont==macs2.length && positive==false){
+    //                 console.log('saiu');
                     
-                    this.saidaFB(mac1.mac)
-                }
-              })
-            })
-        })
-      })
-    }
+    //                 this.saidaFB(mac1.mac)
+    //             }
+    //           })
+    //         })
+    //     })
+    //   })
+    // }
     
   }  
 
@@ -141,7 +143,10 @@ export class HomeComponent implements OnInit {
   }
 
   atualizarCacheMAC(){
-    if(this.maCACHE==undefined){
+    let posi:boolean=false;
+    let add:String;
+    let cont:number=0;
+    if(this.macach==undefined){
       this.macObs.subscribe(mac =>{
         mac.forEach(macN =>{
           this.macach.push(macN.mac)
@@ -150,39 +155,47 @@ export class HomeComponent implements OnInit {
 
       )
     }else{
+      this.macObs.subscribe(mac =>{
+        mac.forEach(macN =>{
 
+          this.macach.forEach(macH =>{
+            cont++
+            if(macN.mac == macH){
+              posi=true;
+            }
+            if(posi=false && this.macach.length == cont){
+              this.macach.push(macN.mac)
+            }
+          })
+        
+        })
+      })
     }
 
     
   }
 
   vseSaiu(){
-    if(this.maCACHE==undefined){
-      this.maCACHE=this.macObs
-    }else{
       this.macObs.subscribe(macs1=>{
       macs1.forEach((mac1)=>{
         let cont;
         cont=0
         let positive=false;
-          this.maCACHE.subscribe(macs2=>{
-            macs2.forEach((mac2)=>{
+          
+            this.macach.forEach((mac2)=>{
               cont++
-              console.log(mac1.mac + " mac atual <==> mac cache "+ mac2.mac);
-                if(mac1.mac == mac2.mac){
+              console.log(mac1.mac + " mac atual <==> mac cache "+ mac2);
+                if(mac1.mac == mac2){
                   positive=true
                 }
-              if(cont==macs2.length && positive==false){
+              if(cont==this.macach.length && positive==false){
                   console.log('O mac '+mac1.mac+ 'saiu da oficina');
-                  
                   this.saidaFB(mac1.mac)
               }
             })
-          })
+          
       })
-    })
-      
-    }
+    }) 
   }
 
 }
